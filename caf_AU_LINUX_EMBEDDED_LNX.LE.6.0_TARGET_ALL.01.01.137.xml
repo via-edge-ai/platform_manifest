@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="master"/>
+  <project name="device/qcom/common" revision="870cf8f91bc89785ea47c79ae152eb1d858d6e01" upstream="refs/heads/jb_rb5.1"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="405213a68806580f6bd38a077e5afc31aa470858" upstream="refs/heads/master"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="f29d0018259f6e3fb0566eabe7e11597a6aa1639" upstream="refs/heads/LA.BR.1.2.6"/>
+  <project name="kernel/msm-3.10" path="kernel" revision="84842210a4e9a695d901bfa98784075da724492f" upstream="refs/heads/LA.BR.1.2.6"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="refs/heads/master"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="196bf023f6630e73f03facc9880bf38043d299bf" upstream="master"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="4554cdffc1289239d1d1c45b4991a7b436903fae" upstream="master"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="baec2940c2b4ec792cacad5cc8d8056d9162919b"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="3c78468f12296abd02abce6eeac0f69bc7509958"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="ca708a2344a828e125de0d1d206440ad8a1e8eba" upstream="refs/heads/mdm"/>
+  <project name="platform/build" path="bootable/scripts" revision="46717c2f65fb20206a09bcb576885f19d2c6cfe7" upstream="refs/heads/mdm"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="9d808aa64a83b49b1189f4ff67324b676081cae2" upstream="refs/heads/master"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="688d9a9af67df161b48ff92c63c06fdf91fb5976" upstream="refs/heads/lp"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="29b7068bf5fb64f09c1f83823ac1737a1f36b7f1" upstream="refs/heads/mdm"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="refs/heads/ics"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="bbf99652de92e1a7cfa7dace65ec3a7d66f0d108" upstream="refs/heads/lp"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="refs/heads/mdm"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47" upstream="refs/heads/horseshoe"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="a77c0a81c23dee7bffe3b07312e80e733c6e3151" upstream="refs/heads/horseshoe"/>
+  <project name="quic/le/platform/init_mss" path="init_mss" revision="41bf942bbbb0b32aa8f588c2475ff847c13d6817" upstream="master"/>
+  <project name="platform/system/core" path="system/core" revision="ebcb1ab0ea15ccd831bc5a148347f7d6089e32f3" upstream="refs/heads/mdm"/>
+  <project name="platform/system/extras" path="system/extras" revision="8bb53f7d377b12b8e49313c01658382c1f7a1a11" upstream="refs/heads/lp"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="8d98c88e72c465f14c1ee00bcb66f01b1cdc0c57" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="a4a4d493ff32fec6a3ce713441b37d0b7e570b56" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima" revision="d86aa5b7dd635d46e637fc73b7b53fe9dd9cd528" upstream="refs/heads/LA.BR.1.2.5"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="e11f972e08e1edffecd522c251787bb4fe806f32" upstream="master"/>
+</manifest>
