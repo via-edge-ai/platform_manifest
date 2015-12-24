@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="master"/>
+  <project name="device/qcom/common" revision="refs/heads/jb_rb5.1"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="refs/heads/master"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="refs/heads/LA.BR.1.2.6"/>
+  <project name="kernel/msm-3.10" path="kernel" revision="refs/heads/LA.BR.1.2.6"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="refs/heads/master"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="baec2940c2b4ec792cacad5cc8d8056d9162919b"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="3c78468f12296abd02abce6eeac0f69bc7509958"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="refs/heads/mdm"/>
+  <project name="platform/build" path="bootable/scripts" revision="refs/heads/mdm"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="refs/heads/master"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="refs/heads/lp"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="refs/heads/mdm"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="refs/heads/ics"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="refs/heads/lp"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="refs/heads/mdm"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="refs/heads/horseshoe"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="refs/heads/horseshoe"/>
+  <project name="quic/le/platform/init_mss" path="init_mss"/>
+  <project name="platform/system/core" path="system/core" revision="refs/heads/mdm"/>
+  <project name="platform/system/extras" path="system/extras" revision="refs/heads/lp"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima" revision="refs/heads/LA.BR.1.2.5"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init"/>
+</manifest>
