@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LER.1.1"/>
+  <project name="device/qcom/common" revision="4d6870f136b1d76d4a2220a93c6b3e474bf44404" upstream="LNX.LER.1.0"/>
+  <project name="kernel/lk" path="lk" revision="030371d45a9dcda4d0cc3c76647e753a1cc1b782" upstream="LNX.LER.1.0"/>
+  <project name="kernel/msm" path="linux" revision="3f8ddfa207518025803a756ef93ff18a8a0754b0" upstream="LNX.LER.1.0"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="000fa81013205dd9bc907ff7a61f06f57637212d"/>
+  <project name="openembedded/meta-linaro" path="oe-core/meta-linaro" remote="caf-le" revision="bc63e777ad2748b8bfa7fa70ffd74700fa21a567"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="d02cdf3ee88c7bbb93cecf094008858782deec3f"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="ede7b434e860fcfd48560a1b7afc3a8198b7092a" upstream="LNX.LER.1.1"/>
+  <project name="platform/build" path="build" revision="1fde81604b59ec246ad44816bf816e21f3f6af20" upstream="LNX.LER.1.1"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="d89ffd97a9f00068c9b2e29933a730030c8ec6ba" upstream="LNX.LER.1.1"/>
+  <project name="platform/external/hostap" path="external/hostap" revision="0afa7ee2ad9247fcd6bf522309c0bb5ad4342f15" upstream="LNX.LER.1.0"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="511eaf9d169284947ed89c85cfedc695d9b5862d" upstream="LNX.LER.1.0"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
+  <project name="platform/frameworks/av" path="frameworks/av" revision="8eb2bfa9af4a881b844a4b5d06d9743831994822" upstream="LNX.LER.1.0"/>
+  <project name="platform/frameworks/native" path="frameworks/native" revision="892c538bd84dff4cb8b9886e46f35e45ea6fa697" upstream="LNX.LER.1.1"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1e36f96f91ad9cef72f02259663d5b4263b17724"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="ee86fd0c82e014d19bd98f519fb43b400f8d3432" upstream="LNX.LER.1.1"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="2f646fd5dbe66140996730bcbc17fac15dfe368a"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="81a0e56f6dbea74dfa1a687396b7d1a3a99e8401" upstream="LNX.LER.1.0"/>
+  <project name="platform/system/bluetooth" path="system/bluetooth" revision="2c5280fdee63796c0188ed318e51dde8393e5d60"/>
+  <project name="platform/system/core" path="system/core" revision="2f7dafcd5d0bf9a6de494044aaacff20de29c17b" upstream="LNX.LER.1.0"/>
+  <project name="platform/system/extras" path="system/extras" revision="85972c436a1da097522d5447a73391585696c9de" upstream="LNX.LER.1.0"/>
+  <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974" revision="2a016769f665bf494199333db1d42905c9693dcd" upstream="LNX.LER.1.0"/>
+  <project name="quic/lx/qr-linux/build" path="oe-core/build" revision="cf4c41b5a0fe4baf6cf177bfa37710338670c787" upstream="LNX.LER.1.1"/>
+  <project name="quic/lx/qr-linux/meta-qr-linux" path="oe-core/meta-qr-linux" revision="cc438e0c732547c5aaa5c9845bc32fa5a6f6fcb4" upstream="LNX.LER.1.1"/>
+</manifest>
