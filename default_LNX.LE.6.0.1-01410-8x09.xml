@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LE.6.0_rb1.8"/>
+  <project name="device/qcom/common"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk"/>
+  <project name="kernel/msm-3.10" path="kernel"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="baec2940c2b4ec792cacad5cc8d8056d9162919b"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="3c78468f12296abd02abce6eeac0f69bc7509958"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery"/>
+  <project name="platform/build" path="bootable/scripts"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez"/>
+  <project name="platform/external/libselinux" path="external/libselinux"/>
+  <project name="platform/external/qrngd" path="external/qrngd"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="quic/le/platform/init_mss" path="init_mss"/>
+  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init"/>
+</manifest>
