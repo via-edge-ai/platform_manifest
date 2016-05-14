@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/" name="caf" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="master_auto"/>
+  <project name="kernel/lk" path="lk" revision="21135ac80ab90542d8894e71c382508125cef4cd" upstream="refs/heads/m-auto"/>
+  <project name="kernel/msm-3.18" path="kernel" revision="8a042e3b4f7a023a38a341d527c5f7e59f847b0f" upstream="refs/heads/rel/msm-3.18"/>
+  <project name="quic/le/oe/conf" path="poky/build/conf" revision="6b5258831446ce5732a73dab21db96d81822f727" upstream="master_auto"/>
+  <project name="quic/le/oe/recipes" path="poky/meta-qti-bsp" revision="b844a11103f6cfe02e91d6eeec06d5c8fd06413e" upstream="master_auto"/>
+</manifest>
