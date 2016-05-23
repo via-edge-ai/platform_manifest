@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="master_auto"/>
+  <project name="kernel/lk" path="lk" revision="refs/heads/m-auto"/>
+  <project name="kernel/msm-3.18" path="kernel" revision="refs/heads/rel/msm-3.18"/>
+  <project name="quic/le/oe/conf" path="poky/build/conf"/>
+  <project name="quic/le/oe/recipes" path="poky/meta-qti-bsp"/>
+</manifest>
