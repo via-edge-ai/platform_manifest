@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LV.HB.1.1.1_rb1.2"/>
+  <project name="AGL/meta-agl" path="poky/meta-agl" remote="caf-le" revision="ddf0d5d0e83b34a38debf0b160b912fe337308e6"/>
+  <project name="AGL/meta-agl-demo" path="poky/meta-agl-demo" remote="caf-le" revision="9cb2f1cbbaa8a03bdff290310c8c9dd71c3b180d"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="poky/meta-qt5" remote="caf-ype" revision="ea37a0bc987aa9484937ad68f762b4657c198617" upstream="github.com/jethro"/>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="caf-ype" revision="dc5634968b270dde250690609f0015f881db81f2" upstream="openembeded.org/jethro"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="1a52eceaa5df89914b6a711defdcf0046e74c7f6" upstream="yocto/jethro"/>
+  <project name="kernel/lk" path="lk" revision="45ae1f59c847e0fce7488d5d147e239f510d6377" upstream="LV.HB.1.1.1_rb1.2"/>
+  <project name="kernel/msm-3.18" path="kernel" revision="177cf5c9e25e83f3cd4d525408a0211813e4229b" upstream="LV.HB.1.1.1_rb1.2"/>
+  <project name="quic/le/oe/conf" path="poky/build/conf" revision="5498c098d50457e6306cc4175657ae69f7a84c1b" upstream="LV.HB.1.1.1_rb1.2"/>
+  <project name="quic/le/oe/recipes" path="poky/meta-qti-bsp" revision="481cccf3d2f0c0c49670dfa2974512191def5b34" upstream="LV.HB.1.1.1_rb1.2"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="c8933f995d8679ce21af1821ef3982672362d8ea" upstream="LV.HB.1.1.1_rb1.2"/>
+</manifest>
