@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LE.6.0.1"/>
+  <project name="device/qcom/common" revision="870cf8f91bc89785ea47c79ae152eb1d858d6e01" upstream="LNX.LE.6.0.1"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="405213a68806580f6bd38a077e5afc31aa470858" upstream="LNX.LE.6.0.1"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="b8f390e9dad753e516530ba5c1236038388f2442" upstream="LNX.LE.6.0.1"/>
+  <project name="kernel/msm-3.10" path="kernel" revision="7bf4b46162c70b03cda653f46c91e6a23cedb3fa" upstream="refs/heads/LNX.LE.6.1"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="LNX.LE.6.0.1"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="95d222a9985fc92f95bf82fb09c9bc59d0e93505" upstream="refs/heads/LNX.LE.6.1"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="ed22f98ac1275a1da76e903bd45318c9d09a1522" upstream="refs/heads/LNX.LE.6.1"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="baec2940c2b4ec792cacad5cc8d8056d9162919b"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="3c78468f12296abd02abce6eeac0f69bc7509958"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="ca708a2344a828e125de0d1d206440ad8a1e8eba" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/build" path="bootable/scripts" revision="46717c2f65fb20206a09bcb576885f19d2c6cfe7" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="bf36c74d337a9d98b9d00a444596847b61a906a6" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="688d9a9af67df161b48ff92c63c06fdf91fb5976" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="29b7068bf5fb64f09c1f83823ac1737a1f36b7f1" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="6cb3b7798b82b66bc59bb6ff0c9b174b074c2de4" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/frameworks/av" path="frameworks/av" revision="f60f05a8259fceddbfe984e565ef1b9aa0c85e82" upstream="refs/heads/LA.BR.1.2.8"/>
+  <project name="platform/frameworks/native" path="frameworks/native" revision="6f6588f80605b05def36e82d991f3fee45280baf" upstream="refs/heads/LA.BR.1.3.4"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="4bf19baafa77bc1fddba489ca7c1926096b09769" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="27134706106bd786ed24579c783d2023f73dbbb6" upstream="LNX.LE.6.1"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="4ffe74f8f444280a0fb66832885d32200f30d5ed" upstream="refs/heads/LA.BR.1.2.6"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="28fc0e5ed8d753baa66c1f4ba12f102bad9be739" upstream="refs/heads/LNX.LE.6.1"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="7a42a1ef4743c491c6bfbc32216c30f01de0d19d" upstream="refs/heads/LA.BR.1.2.8"/>
+  <project name="quic/le/platform/init_mss" path="init_mss" revision="41bf942bbbb0b32aa8f588c2475ff847c13d6817" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/system/core" path="system/core" revision="0aef4e8a747776334fcda63b965f54e44f540c02" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/system/extras" path="system/extras" revision="8bb53f7d377b12b8e49313c01658382c1f7a1a11" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="21e5e4454102134ee837827edbf6a390da0fd7ef" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="2f022f3826f4fb9f00751446abd0449cf142d07b" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="459f8829c50b1112f9d67c611f8d3d9ef711770d" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima" revision="c9f6e25231e4ba6c2ee55c10a95a811823b1df1f" upstream="LNX.LE.6.0.1"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="2d69d917619af0445db7a4bf12669fd26c7a6315" upstream="refs/heads/master"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="a5212305e10e3f90db6d75ceccb41dde0b3b59e3" upstream="refs/heads/LNX.LE.6.1"/>
+</manifest>
