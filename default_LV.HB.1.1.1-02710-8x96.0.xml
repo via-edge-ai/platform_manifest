@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LV.HB.1.1.1_rb1.5"/>
+  <project name="AGL/meta-agl" path="poky/meta-agl" remote="caf-le" revision="ddf0d5d0e83b34a38debf0b160b912fe337308e6"/>
+  <project name="AGL/meta-agl-demo" path="poky/meta-agl-demo" remote="caf-le" revision="9cb2f1cbbaa8a03bdff290310c8c9dd71c3b180d"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="poky/meta-qt5" remote="caf-ype" revision="github.com/jethro"/>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="caf-ype" revision="openembeded.org/jethro"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="yocto/jethro"/>
+  <project name="kernel/lk" path="lk"/>
+  <project name="kernel/msm-3.18" path="kernel"/>
+  <project name="quic/le/oe/conf" path="poky/build/conf"/>
+  <project name="quic/le/oe/recipes" path="poky/meta-qti-bsp"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+</manifest>
