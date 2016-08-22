@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LV.HB.1.1.1_rb1.7"/>
+  <project name="AGL/meta-agl" path="poky/meta-agl" remote="caf-le" revision="ddf0d5d0e83b34a38debf0b160b912fe337308e6"/>
+  <project name="AGL/meta-agl-demo" path="poky/meta-agl-demo" remote="caf-le" revision="9cb2f1cbbaa8a03bdff290310c8c9dd71c3b180d"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="poky/meta-qt5" remote="caf-ype" revision="ea37a0bc987aa9484937ad68f762b4657c198617" upstream="github.com/jethro"/>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="caf-ype" revision="dc5634968b270dde250690609f0015f881db81f2" upstream="openembeded.org/jethro"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="1a52eceaa5df89914b6a711defdcf0046e74c7f6" upstream="yocto/jethro"/>
+  <project name="kernel/lk" path="lk" revision="e0768aa54f90b5e6778aebd1d4c39105d10e14ad" upstream="LV.HB.1.1.1_rb1.7"/>
+  <project name="kernel/msm-3.18" path="kernel" revision="27762e14bb118b7b7459d1d098133cbf361b8c08" upstream="LV.HB.1.1.1_rb1.7"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="9f123305a63eaf1fc1831326f71d978e2624b6d3" upstream="LV.HB.1.1.1_rb1.7"/>
+  <project name="quic/le/oe/conf" path="poky/build/conf" revision="cb3800ecaf1f777a6ab56e367bed74eabd5e857b" upstream="LV.HB.1.1.1_rb1.7"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="LV.HB.1.1.1_rb1.7"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="LV.HB.1.1.1_rb1.7"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="63c2e1d96058c3fa63005d2be8c9a0c97d62fbe5" upstream="LV.HB.1.1.1_rb1.7"/>
+  <project name="platform/system/core" path="system/core" revision="72d4533841189f7b3d6d9d9108d8924f215648e5" upstream="LV.HB.1.1.1_rb1.7"/>
+  <project name="platform/system/extras" path="system/extras" revision="293156d4a79fac147fbe80c9354607a487198450" upstream="LV.HB.1.1.1_rb1.7"/>
+</manifest>
