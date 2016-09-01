@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LV.HB.1.1.1_rb1.12"/>
+  <project name="AGL/meta-agl" path="poky/meta-agl" remote="caf-le" revision="744c7b109356ca76ed3e97a1858c64a54cc9310f"/>
+  <project name="AGL/meta-agl-demo" path="poky/meta-agl-demo" remote="caf-le" revision="ba4c2ecd321efee716a2e122a87f5ed93e9cbe0d"/>
+  <project name="AGL/meta-agl-extra" path="poky/meta-agl-extra" remote="caf-le" revision="a162dab2c88266692b67fed8935ed772d2712210"/>
+  <project name="AGL/meta-amb" path="poky/meta-amb" remote="caf-le" revision="ef3495bb8d6543709f6d1f7b657cb894d32c1757"/>
+  <project name="AGL/meta-intel-iot-security" path="poky/meta-intel-iot-security" remote="caf-le" revision="c5906a1553513ef192a58231700357c5f14f4ae4"/>
+  <project name="AGL/meta-rust" path="poky/meta-rust" remote="caf-le" revision="395cde581938d862abb6a9219c0118c81cf01da2"/>
+  <project name="AGL/meta-security-isafw" path="poky/meta-security-isafw" remote="caf-le" revision="2034d5ee13e6cb38e0c40e5b3c5aea4535dbc74b"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="poky/meta-qt5" remote="caf-ype" revision="ea37a0bc987aa9484937ad68f762b4657c198617"/>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="caf-ype" revision="8ab04afbffb4bc5184cfe0655049de6f44269990"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="118380bc5d01e52b5edc574abb4176f6e70a54a6"/>
+  <project name="kernel/lk" path="lk" revision="d947a3f75a3945dae80032f6994ae96e811261ae" upstream="LV.HB.1.1.1_rb1.12"/>
+  <project name="kernel/msm-3.18" path="kernel" revision="1e1d2497db40934a860d226675c57f622ec1f33b" upstream="LV.HB.1.1.1_rb1.12"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="1eb18ad235edc52693a1fd9516783c1cb062714d" upstream="LV.HB.1.1.1_rb1.12"/>
+  <project name="quic/le/oe/conf" path="poky/build/conf" revision="d303cd280ecf1b8aecccc143be7780189bf8d2f8" upstream="LV.HB.1.1.1_rb1.12"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="LV.HB.1.1.1_rb1.12"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="LV.HB.1.1.1_rb1.12"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="63c2e1d96058c3fa63005d2be8c9a0c97d62fbe5" upstream="LV.HB.1.1.1_rb1.12"/>
+  <project name="platform/system/core" path="system/core" revision="51840cf19c93632c45dda335c907c306ebf9f864" upstream="LV.HB.1.1.1_rb1.12"/>
+  <project name="platform/system/extras" path="system/extras" revision="293156d4a79fac147fbe80c9354607a487198450" upstream="LV.HB.1.1.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/Ethernet" path="vnw/ethernet" revision="f90bee12d26f61143d08f5e4c7f01be51b794b77" upstream="LV.HB.1.1.1_rb1.12"/>
+</manifest>
