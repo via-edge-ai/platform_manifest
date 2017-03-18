@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LV.HB.1.1.2_rb1.7"/>
+  <project name="AGL/meta-agl" path="poky/meta-agl" remote="caf-le" revision="744c7b109356ca76ed3e97a1858c64a54cc9310f"/>
+  <project name="AGL/meta-agl-demo" path="poky/meta-agl-demo" remote="caf-le" revision="ba4c2ecd321efee716a2e122a87f5ed93e9cbe0d"/>
+  <project name="AGL/meta-agl-extra" path="poky/meta-agl-extra" remote="caf-le" revision="a162dab2c88266692b67fed8935ed772d2712210"/>
+  <project name="AGL/meta-amb" path="poky/meta-amb" remote="caf-le" revision="ef3495bb8d6543709f6d1f7b657cb894d32c1757"/>
+  <project name="AGL/meta-intel-iot-security" path="poky/meta-intel-iot-security" remote="caf-le" revision="c5906a1553513ef192a58231700357c5f14f4ae4"/>
+  <project name="AGL/meta-rust" path="poky/meta-rust" remote="caf-le" revision="395cde581938d862abb6a9219c0118c81cf01da2"/>
+  <project name="AGL/meta-security-isafw" path="poky/meta-security-isafw" remote="caf-le" revision="2034d5ee13e6cb38e0c40e5b3c5aea4535dbc74b"/>
+  <project name="quic/le/AGL/staging/agl-audio-plugin" path="audio/agl-audio-plugin"/>
+  <project name="device/qcom/common" path="android_compat/device/qcom/common"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="poky/meta-qt5" remote="caf-ype" revision="ea37a0bc987aa9484937ad68f762b4657c198617"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-omx" path="gstreamer/gst-omx"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-bad" path="gstreamer/gst-plugins-bad"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-base" path="gstreamer/gst-plugins-base"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-good" path="gstreamer/gst-plugins-good"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-ugly" path="gstreamer/gst-plugins-ugly"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gstreamer" path="gstreamer/gstreamer"/>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="caf-ype" revision="8ab04afbffb4bc5184cfe0655049de6f44269990"/>
+  <project name="external/yoctoproject.org/meta-ivi" path="poky/meta-ivi" remote="caf-ype" revision="yocto/10.0"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="118380bc5d01e52b5edc574abb4176f6e70a54a6"/>
+  <project name="quic/le/gstreamer/gst-mprtp" path="gstreamer/gst-mprtp"/>
+  <project name="kernel/lk" path="lk"/>
+  <project name="kernel/msm-3.18" path="kernel"/>
+  <project name="quic/le/mesa/drm" path="graphics/libdrm"/>
+  <project name="meta-genivi-demo" path="poky/meta-genivi-demo" remote="caf-le" revision="595a1e894975f5f62d6701536c031592bebca17a"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp"/>
+  <project name="quic/le/oe/conf" path="poky/build/conf"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery"/>
+  <project name="platform/build" path="android_compat/build"/>
+  <project name="quic/automotive/platform/external/Open-AVB" path="vehiclenetwork/Open-AVB"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff"/>
+  <project name="quic/le/platform/external/connman" path="external/connman"/>
+  <project name="platform/external/libselinux" path="external/libselinux"/>
+  <project name="platform/external/libunwind" path="external/libunwind"/>
+  <project name="quic/le/platform/external/ofono" path="external/ofono"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/frameworks/av" path="audio/mm-audio-opensource/av"/>
+  <project name="platform/hardware/qcom/camera" path="camera/lib"/>
+  <project name="platform/hardware/qcom/display" path="display"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform/vendor/qcom-opensource/Ethernet" path="vehiclenetwork/ethernet"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests"/>
+  <project name="platform/vendor/qcom-opensource/mm-audio" path="audio/mm-audio-opensource"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/synergy" path="synergy/synergy-opensource"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut"/>
+  <project name="platform/vendor/qcom/thulium" path="android_compat/device/qcom/msm8996"/>
+  <project name="quic/le/sofia-sip" path="sofia-sip"/>
+  <project name="quic/le/strongswan" path="external/strongswan"/>
+  <project name="quic/le/wayland/weston" path="graphics/weston"/>
+</manifest>
