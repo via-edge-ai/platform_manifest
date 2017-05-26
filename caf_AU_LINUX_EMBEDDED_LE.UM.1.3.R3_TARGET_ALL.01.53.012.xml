@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.1.3.r3"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="4f44609b988d62704a3ed4b9809cee82aa7ce041" upstream="uefi.lnx.1.0.r23-rel"/>
+  <project name="device/qcom/common" path="android_compat/device/qcom/common" revision="511f8da9cd60d0d4cc63f49a8bbd059f9acb1658" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="e08994ce953ff5ab49b260e7763a40bfad4285ca" upstream="refs/heads/yocto/jethro"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="736ed6e3830172cac8349a2a02a18ffee9c32799" upstream="core-technologies.lnx.1.0.r23-rel"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="ebde90b1e362e7fbd9141df798d8b17cd335d21e" upstream="lk.lnx.1.0.r20-rel"/>
+  <project name="kernel/msm-4.4" revision="00263a53e3b50cfcd446eb8e517d7606d3e7b056" upstream="kernel.lnx.4.4.r21-rel"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="ef84bd5b948563d06e9da2000155c505a70cf875" upstream="mdm-ss-mgr.lnx.1.0.r6-rel"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio" revision="87fdb1f941d98fe2b0bb64a8ac55f87b3c22ea79" upstream="audio-userspace.lnx.2.2.r10-rel"/>
+  <project name="quic/le/meta-qti-auto" path="poky/meta-qti-auto" revision="fedcb9a4a4bb8c2004a55d0a16f56baedaa8adf9" upstream="vnw-can.lnx.1.0.r6-rel"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="53bd710378b6af3f8d4807559bd81659adf3798c" upstream="yocto.lnx.1.0.r14-rel"/>
+  <project name="quic/le/meta-qti-bt" path="poky/meta-qti-bt" revision="7111e02824b50d5cd72ff6337851bb165352397f" upstream="bt-fluoride.le.2.0.r2-rel"/>
+  <project name="quic/le/meta-qti-camera" path="poky/meta-qti-camera" revision="8477f0a99940e0f0800966ee3d6695b0055a7f2d" upstream="camera.lnx.iot.1.0.r7-rel"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="9389fa3294d805d2b4d24afaead78c42ebdd1ec6" upstream="core-technologies.lnx.1.0.r23-rel"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="806e9990899aea0dd62e47a10a0e836542c71e40" upstream="data.lnx.1.0.r14-rel"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display" revision="57f8d41937cf371931cfeb1fe1043124d1e23578" upstream="display.lnx.3.0.r23-rel"/>
+  <project name="quic/le/meta-qti-drones" path="poky/meta-qti-drones" revision="74bacce81fa4a7fbae6d6cea520962c69681371e" upstream="iot-drones.lnx.1.0.r5-rel"/>
+  <project name="quic/le/meta-qti-location" path="poky/meta-qti-location" revision="3590353661681e96244b530cb801d6d169176756" upstream="location.lnx.2.0.r23-rel"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="72fae78dc4fb12461d5cf81329824e76d08187c7" upstream="mdm-ss-mgr.lnx.1.0.r6-rel"/>
+  <project name="quic/le/meta-qti-video" path="poky/meta-qti-video" revision="63f50ad3f3af907bd6f18ebf29e8edd0ec6545c2" upstream="video-userspace.lnx.2.1.r23-rel"/>
+  <project name="quic/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="6ad86afc000584a612b7596140f763c681f06a57" upstream="wlan-service.lnx.1.0.r6-rel"/>
+  <project name="meta-selinux" path="poky/meta-selinux" remote="caf-le" revision="4c75d9cbcf1d75043c7c5ab315aa383d9b227510" upstream="refs/heads/yocto/jethro"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="4118fa9392673e6a491add694d5e83a28bb33759" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project name="platform/build" path="android_compat/build" revision="15df3aeb949f840ef81cab9ddd7c5236010c427f" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project name="quic/automotive/platform/external/Open-AVB" path="external/open-avb" revision="236e1a5ed8edd99696685b4a19f8ca1b21840faf" upstream="vnw-open-avb.lnx.1.0.r2-rel"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="bf36c74d337a9d98b9d00a444596847b61a906a6" upstream="bt.le.1.0.r6-rel"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff" revision="3358bd0b08ad28aa0534c2ff28f93ef297e4a570" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="b0e10738d58871016011b94d409956b967c7d1b6" upstream="data.lnx.1.0.r14-rel"/>
+  <project name="platform/external/libdrm" path="display/libdrm" revision="495045970e9a0818950d26f2bc58c96b76c052b5" upstream="display.lnx.3.0.r23-rel"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project name="platform/external/libunwind" path="external/libunwind" revision="5666bf1198f2205c3825375cdeb9a92fa2baff34" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="a867531916ad77b16efc04d07f7862f40fb75acf" upstream="wlan-service.lnx.1.0.r6-rel"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1cd0cd4ddbc6734e057b1fb021e21c34bd302c5d" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="f834a85ce069f583175d03edd97e3508b30072af" upstream="audio-userspace.lnx.2.2.r10-rel"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="085860b94ae64a0b2c5f3f6a26286d41f6acbae4" upstream="bt-fluoride.le.2.0.r2-rel"/>
+  <project name="platform/hardware/qcom/camera" path="camera/lib" revision="add597162eac3d7fe0a6ffee3c2eefa69b36e885" upstream="camera.lnx.iot.1.0.r7-rel"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="display/display-hal" revision="1271d357d1b663229d4dd2131e760bf3ceef6ae4" upstream="display.lnx.3.0.r23-rel"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="0e9c4780e715931a8da205127404a11f31f9d66c" upstream="location.lnx.2.0.r23-rel"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="38c2f5602aa13d8fbd75de4c049bc9c67716affc" upstream="video-userspace.lnx.2.1.r23-rel"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors/" revision="4e693ece596463d72b7fbda3017590d339ec31c4" upstream="sensors-bmi.lnx.1.0.r6-rel"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="49bfe17446df8da0931862277b0e94d58ed19392" upstream="wlan-aosp.lnx.2.0.r23-rel"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="5ac6b38ba0ca5e566ccc65f05403d34ed9cb0722" upstream="mdm-ss-mgr.lnx.1.0.r6-rel"/>
+  <project name="platform/packages/apps/SnapdragonCamera" path="disregard/packages/apps/SnapdragonCamera" revision="d1394828f6117ac0dd3430d407ceae06d7804656" upstream="camera.lnx.iot.1.0.r7-rel"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="173b98fbb3d1a68241f17de1129c4842c9d1e5dd" upstream="android-framework.lnx.2.0.r23-rel"/>
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="6ca6746f5fafd7d1b162451dce2ae40741529e9e" upstream="android-framework.lnx.2.0.r23-rel"/>
+  <project name="quic/le/platform/qcom-opensource/bt" path="qcom-opensource/bt" revision="4e544bf2361e97fb85d57d43a6bc0d4faa6a23da" upstream="bt-fluoride.le.2.0.r2-rel"/>
+  <project name="platform/system/bt" path="system/bt" revision="0b2798419df2345169ad324d4f0f4d04f2dae602" upstream="bt-fluoride.le.2.0.r2-rel"/>
+  <project name="platform/system/core" path="system/core" revision="beaa540c97db1ae85b15b2914bb7551c772b1daa" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project name="platform/system/extras" path="system/extras" revision="f487740f037174e09879c3e0dd7a1bae17b39f06" upstream="le-blast.lnx.1.1.r14-rel"/>
+  <project name="platform/system/media" path="system/media" revision="2c68e49312c4adf6535f61785e84dcac00429f2a" upstream="le-frameworks.lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/qcom-opensource/Ethernet" path="qcom-opensource/ethernet/neutrino-pcie/driver" revision="df0eea7f43aee97677a5da9ab7ff3685e9979697" upstream="vnw-ethernet.lnx.1.0.r2-rel"/>
+  <project name="platform/vendor/qcom-opensource/Ethernet-hsic" path="qcom-opensource/ethernet/neutrino-hsic/driver" revision="83bdcd7bdf45805dbe20bf6973c724bf95b01db4" upstream="vnw-ethernet.lnx.1.0.r2-rel"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="fec651cdc7a2b6c12d972e7e9d70807025a79f3e" upstream="bt-fluoride.le.2.0.r2-rel"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="2757850c1dd4b9ba1d636ec032eef3a05caa7f31" upstream="data.lnx.1.0.r14-rel"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="0e5131ffe61c3d134b75993c2845d84a62d9e8c9" upstream="data.lnx.1.0.r14-rel"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="c7ceae905b1b26e5df6b7eed28ece735f6bf3e28" upstream="audio-mdm.lnx.1.0.r6-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="044fef1dbba349f5480b0a4e0f8f67c42ae8c125" upstream="le-frameworks.lnx.1.0.r6-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/libRoboticsCamera" path="vendor/qcom/opensource/libroboticscamera" revision="f518dfcf07f36490a4b28fccc8e945ae1b8e80d6" upstream="iot-drones.lnx.1.0.r5-rel"/>
+  <project name="platform/vendor/qcom-opensource/location" path="qcom-opensource/location" revision="669c4e93f597791d00209377ac7a4cd4d25f8f0b" upstream="location.lnx.2.0.r23-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/qmmf-sdk" path="vendor/qcom/opensource/qmmf-sdk" revision="c820e415203d88e5b43bf8df75068235768066ab" upstream="iot-concam.lnx.1.0.r7-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/qmmf-webserver" path="vendor/qcom/opensource/qmmf-webserver" revision="a4ddc13692a0d2edf61d3b00ea469ca6e54ff973" upstream="iot-concam.lnx.1.0.r7-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="58898082ada70150b4230f4f6854ddf143375a69" upstream="data.lnx.1.0.r14-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/synergy" path="qcom-opensource/synergy" revision="bef1fb8a56e6b24a8631c51805bbf29a29de4a1e" upstream="bt-synergy.lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="wlan/fw-api" revision="7e6f1bc289e4d33e44ac7f1d50ef02d14b4bb51b" upstream="wlan-api.lnx.1.1.r25-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima" revision="e36959e47fe496386fd4a8bbbb3b9f74a8a8ef2d" upstream="wlan-driver.lnx.1.0.r16-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="wlan/qca-wifi-host-cmn" revision="d1f5130ee0d4c6e8077883f0596a68f62b7b7193" upstream="wlan-cmn.driver.lnx.1.0.r22-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="b1413286dee2f570c5c0604bea32a4a8610abc37" upstream="wlan-cld2.driver.lnx.1.0.r15-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="wlan/qcacld-3.0" revision="464d78c4eeb7b949a8e45e035bf4c670699721f8" upstream="wlan-cld3.driver.lnx.1.1.r22-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut" revision="26300902048b74ddb46aca73e6bf127dac80a070" upstream="wlan-service.lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/qcom/cobalt" path="android_compat/device/qcom/msmcobalt" revision="9649185c92b92ca4588fa5004d7b629b17c725bf" upstream="le.devices-lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/qcom/ferrum" path="android_compat/device/qcom/msm8909" revision="db8cc6584388de9900c3b29e2d02f29521a7edd8" upstream="le.devices-lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/qcom/thorium_32" path="android_compat/device/qcom/msm8937_32" revision="72d1b7754f12c790e1b2def4d3a040f753b8a130" upstream="le.devices-lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/qcom/thorium_64" path="android_compat/device/qcom/msm8937" revision="ad7a2296e6d3b000151a7fe680b446b3f3647223" upstream="le.devices-lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/qcom/thulium" path="android_compat/device/qcom/msm8996" revision="c636cdca32548abb805f074fd2a3d169be5fc2ad" upstream="le.devices-lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/qcom/titanium_32" path="android_compat/device/qcom/msm8953_32" revision="61381fb60174eeb6e031cc186d851f2fc244d95e" upstream="le.devices-lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/qcom/titanium_64" path="android_compat/device/qcom/msm8953" revision="156410b5c6808bfa42261cb6b2bada1ef3c2759d" upstream="le.devices-lnx.1.0.r6-rel"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="6d4b1800e3680191fb1d78f89c99a64f6a413bae" upstream="wlan-tools.lnx.1.0.r23-rel"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="6c35f44e8f9916be772f4214ef1d00c5bf0f11ff" upstream="yocto.lnx.1.0.r14-rel"/>
+  <project name="quic/le/wayland/weston" path="display/weston" revision="6c9e5255608c94d092a98dc12c6e6c5d244672c1" upstream="display.lnx.3.0.r23-rel"/>
+</manifest>
