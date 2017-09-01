@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.1.3.r3.6"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="ea22dc13826fa9de3010e467bcbfc7dfaa4cfb56" upstream="LE.UM.1.3.r3.6"/>
+  <project name="device/qcom/common" path="android_compat/device/qcom/common" revision="67051226a0331a79d703d5f55d54c4f8a042422d" upstream="LE.UM.1.3.r3.6"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="e08994ce953ff5ab49b260e7763a40bfad4285ca" upstream="refs/heads/yocto/jethro"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="d17c0c1a6bbdf4a387dc95a349c97940d296203d" upstream="LE.UM.1.3.r3.6"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="623dd624a89a3de5944227a1429960817063195a" upstream="LE.UM.1.3.r3.6"/>
+  <project name="kernel/msm-4.4" revision="36afa4b6600b8ead4576bdce22ac8c6af5307f8d" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="ef84bd5b948563d06e9da2000155c505a70cf875" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio" revision="e1aa7b85054f8612a43ce38cc1773ebb0ee9f1d8" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-auto" path="poky/meta-qti-auto" revision="9e7457b0a716c50a0e8193c12e7ecf2fe6f86904" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="e7f75dc3b293d1988f32ce73fd92b5c5f73cbef8" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-bt" path="poky/meta-qti-bt" revision="248ac21be4a6c12bf19a6ee75d79325343e970b8" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="750c6fd42c37fd25f4798d84cb8b70cdfc19ace0" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="e9b77b434b7774e73686f1476c42739c7e3cc2ba" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display" revision="51e13c797226b0880ecbce3bf1ce4e930f873bf5" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-drones" path="poky/meta-qti-drones" revision="2d01b33cf941715271b6afaf15baebca85d28b71" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-qmmf" path="poky/meta-qti-qmmf" revision="bf8dd72f498088066785807437d9817827cde4ef" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-qsap" path="poky/meta-qti-qsap" revision="310c901587527b6aacc9752faaa7ef750275ea01" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-security" path="poky/meta-qti-security" revision="5defa68586591c844b405878c546d0b38e04cdc7" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="b6898c7181b9e202f94857e6cff8ea2224d54659" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-video" path="poky/meta-qti-video" revision="9acfc58295ee8fe87602a74a0d6974ba60a83e18" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="6ad86afc000584a612b7596140f763c681f06a57" upstream="LE.UM.1.3.r3.6"/>
+  <project name="meta-selinux" path="poky/meta-selinux" remote="caf-le" revision="4c75d9cbcf1d75043c7c5ab315aa383d9b227510" upstream="refs/heads/yocto/jethro"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="4118fa9392673e6a491add694d5e83a28bb33759" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/build" path="android_compat/build" revision="bac4f33c392cc1eebfc9ad11435b6c1b80ccaf9a" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/automotive/platform/external/Open-AVB" path="external/open-avb" revision="36fdd5aab2fd6af47e10c7aeb5245f194e3bea59" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="bf36c74d337a9d98b9d00a444596847b61a906a6" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff" revision="3358bd0b08ad28aa0534c2ff28f93ef297e4a570" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="68ecd5d044501d9bbf2a01fc6b6b6c23ca56d9a9" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/external/libdrm" path="display/libdrm" revision="495045970e9a0818950d26f2bc58c96b76c052b5" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/external/libunwind" path="external/libunwind" revision="5666bf1198f2205c3825375cdeb9a92fa2baff34" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="f857416a887c15c9cdbd7b800034a9dea6292b20" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="09ceb836eb66646b1ad0aef4dc76e223d7b9b5c1" upstream="LE.UM.1.3.r3.6"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="8868894c75d48c604230fa9419d6ecd898e136d6" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="e54d6bab22d6e06275ec2164897889041d1a0bb4" upstream="LE.UM.1.3.r3.6"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="display/display-hal" revision="eac51fa9475d66a2a8449b80eb544b76128dbd5b" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="4fb6e1ef3079596836bfa9381be64d3e7fc01545" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors/" revision="cf9bfa612916a7d19a822926a340808e73885fac" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="49bfe17446df8da0931862277b0e94d58ed19392" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="5ac6b38ba0ca5e566ccc65f05403d34ed9cb0722" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="173b98fbb3d1a68241f17de1129c4842c9d1e5dd" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="6ca6746f5fafd7d1b162451dce2ae40741529e9e" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/platform/qcom-opensource/bt" path="qcom-opensource/bt" revision="7bba64adecf89e057443edef5a203c4a1aee7e6e" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/system/bt" path="system/bt" revision="1925339cd1a14bc03403eec5c9752c6d68ba99a1" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/system/core" path="system/core" revision="bcbf4195e0de04efe871f02dc3ade69f6a80a3d8" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/system/extras" path="system/extras" revision="f487740f037174e09879c3e0dd7a1bae17b39f06" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/Ethernet" path="qcom-opensource/ethernet/neutrino-pcie/driver" revision="3248f1edd8132b28545cf150a9aeebf13cb3f340" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/Ethernet-hsic" path="qcom-opensource/ethernet/neutrino-hsic/driver" revision="772162875cf2a139a11d4fb520e4a51d7700984d" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="73194da5b51683d89ef2c0707aeb67a0c46f41b9" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="a41867f5dc776a3717e612b43e55a739d92a0a10" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="0e5131ffe61c3d134b75993c2845d84a62d9e8c9" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="c7ceae905b1b26e5df6b7eed28ece735f6bf3e28" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="9729ad007338d329129b684361f741d532be1636" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/libRoboticsCamera" path="vendor/qcom/opensource/libroboticscamera" revision="dbea2a7c19c4774228f1c18f0a947d202f9ba1e8" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="79533cf856d6650de346d95835dc1235e378b3ac" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/synergy" path="qcom-opensource/synergy" revision="bef1fb8a56e6b24a8631c51805bbf29a29de4a1e" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice" revision="4f0ff4252d6e6a3d6c7b364c74ba788adaf2172c" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="wlan/fw-api" revision="b79bd7bf692b31a437871146d8b5bd3a6a43c6d7" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima" revision="277db4e14da7b8803f1229eee620a11ad479dc2c" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="wlan/qca-wifi-host-cmn" revision="2858cb7e4a5f283a925c735ef38fb25e3068b87b" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="fe671bb05e5879e20ea6d40d1c08658a93439bdc" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="wlan/qcacld-3.0" revision="cdc6d7cbf40601f1660ff65ef09560ec7d06caf0" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut" revision="a7e6d3ec3bb82899b8f0b9456f11f9a815c8d2ae" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom/cobalt" path="android_compat/device/qcom/msmcobalt" revision="3989d707860fc9339d2f70604bfb6a626a5a0a8f" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom/ferrum" path="android_compat/device/qcom/msm8909" revision="b3adc3470f57db34d19a24b61fa3b267eaa263e5" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom/thorium_32" path="android_compat/device/qcom/msm8937_32" revision="72d1b7754f12c790e1b2def4d3a040f753b8a130" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom/thorium_64" path="android_compat/device/qcom/msm8937" revision="ad7a2296e6d3b000151a7fe680b446b3f3647223" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom/thulium" path="android_compat/device/qcom/msm8996" revision="c0a2c64f60c349993545d13faa75cc99cc0eb779" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom/titanium_32" path="android_compat/device/qcom/msm8953_32" revision="61381fb60174eeb6e031cc186d851f2fc244d95e" upstream="LE.UM.1.3.r3.6"/>
+  <project name="platform/vendor/qcom/titanium_64" path="android_compat/device/qcom/msm8953" revision="1c21f1cde6e99a241fc2ddc2f89d82ab48b6b98a" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="03f8c833c98d3a6452a4d7b060ed62001cf170a7" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="95d3994fcefe34f149faba03aa651720c36e3fcb" upstream="LE.UM.1.3.r3.6"/>
+  <project name="quic/le/wayland/weston" path="display/weston" revision="4183a558ba99d724369e119deabf83f99750d074" upstream="LE.UM.1.3.r3.6"/>
+</manifest>
