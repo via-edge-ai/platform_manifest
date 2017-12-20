@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="31ffbcf7be54f0e4a40e407b1f5c2d1aceca1d30"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="refs/heads/yocto/rocko"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="d17c0c1a6bbdf4a387dc95a349c97940d296203d"/>
+  <project name="kernel/msm-4.9" revision="373476f581b02018e8e62ac6eac2a0fbb4a203b1"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="169412bc77d33c4d800d9de82cddc388824cf630"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio" revision="66a1b74cc847b214f95f125aa174e2e6efbef3f6"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="89b0f0a1646e6f80658cbe57784d847d81f599ab"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="8dbe98fd71c065672b509a4a5649b8011b0321b2"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="882e8f2592816e5e22285ed365b1e2cd6d151bd1"/>
+  <project name="quic/le/meta-qti-location" path="poky/meta-qti-location" revision="d2867900a45b1c417eb18825f900b870c1fcfb4b"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="04ea3a3acc6454138ee194546edd2578733f6057"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="0143c07f3b1594a9259b7a0fe041deb5f4db8099"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d"/>
+  <project name="platform/external/libunwind" path="external/libunwind" revision="7ae792b4d98fb654b494675ba0f541bf2e664d55"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="5cb51621a04a2ac4a9ed07a1322401634ff26e0d"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="bba1bee291a21d71f22098a8d5b03a02518beb46"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="53a1aa5ed5894f5bf5c0bc5119c8509a03ab686d"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="19a61af5d6f83f2b20d99fe60018f926329edd0e"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="refs/heads/android-framework.lnx.2.0.c2-rel"/>
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="refs/heads/android-framework.lnx.2.0.c2-rel"/>
+  <project name="platform/system/core" path="system/core" revision="bedad031c9f09460a0a0927079c300b31c2f664c"/>
+  <project name="platform/system/extras" path="system/extras" revision="fd74eda15c9061d4122e97f32080483cc559fd98"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="kernel/msm-4.9/techpack/audio" revision="fde5974209c5aef2a90ba2020c53371dc2ca492a"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="f2493c539a2d55b909c8e18fa7b6154424726fb1"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel" revision="3f5b0faa207f5e5f3b71e45a776688a68762e4a9"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="597482dad495d5f087b7c78264b95adb2968cc88"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="refs/heads/audio-mdm.lnx.1.0-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="947953fdeea7ed7e85c9a5a9d75459d2b24f338b"/>
+  <project name="platform/vendor/qcom-opensource/location" path="qcom-opensource/location" revision="41bb267510cedf43c3b6cba937f8c907de718ae4"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="a996064cc0169e24e48881f38073fcca5f59c743"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice" revision="fc56f8de8bf5c520ed2aa2f2cc692d0535647ab7"/>
+  <project name="quic/le/pmipv6" revision="eef1a501fb71301d01065f4c6c64fc71946c0d2a" path="pmipv6"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="0e973c2cd25cdc303077b1fc1c8458729581a528"/>
+</manifest>
