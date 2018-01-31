@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LV.HB.1.1.1_rb1.43"/>
+  <project name="AGL/meta-agl" path="meta-agl" remote="caf-le" revision="301c9b323616ff0a0e41d0fd1178c1f2029e44e9"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" remote="caf-le" revision="c3a3974d075836fc700e57b2020f4b5473c89021"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" remote="caf-le" revision="812bc8ab9490e2418dedcf3a868a0ef9393ab01f"/>
+  <project name="AGL/meta-amb" path="meta-amb" remote="caf-le" revision="ef3495bb8d6543709f6d1f7b657cb894d32c1757"/>
+  <project name="AGL/meta-intel-iot-security" path="meta-intel-iot-security" remote="caf-le" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285"/>
+  <project name="AGL/meta-security-isafw" path="meta-security-isafw" remote="caf-le" revision="f44f15bb54057dd60399bb5dc7e0ecc7822168a2"/>
+  <project name="quic/le/AGL/staging/agl-audio-plugin" path="audio/agl-audio-plugin" revision="48475261ec43a169e9be8d069ae1aa7b47526abb" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="device/qcom/common" path="android_compat/device/qcom/common" revision="803b8baedd7d456fa9170075d3102171b7deb162" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="meta-qt5" remote="caf-ype" revision="4020adfd5198cf581eb20fbfd7d5b4c1a42fcdf4"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-omx" path="gstreamer/gst-omx" revision="a386a3eab219ddead542ffe2e70e02e13db980e8" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-bad" path="gstreamer/gst-plugins-bad" revision="36ac6d79788e9357e586028f99662a919147f40f" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-base" path="gstreamer/gst-plugins-base" revision="eacb3b38802e95a3dbcdd49bbb93ec57c227dc89" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-good" path="gstreamer/gst-plugins-good" revision="9bc5fa80f0af29134d8bff341e0ab924814f4906" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-ugly" path="gstreamer/gst-plugins-ugly" revision="b49636b15c8d2fc36bb4a728f81aeca1d9e641d5" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gstreamer" path="gstreamer/gstreamer" revision="dd7e23e2b2b599597e60a2c56e1a8d1663511bcd" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="external/openembedded.org/meta-openembedded" path="meta-openembedded" remote="caf-ype" revision="55c8a76da5dc099a7bc3838495c672140cedb78e"/>
+  <project name="external/yoctoproject.org/meta-ivi" path="meta-ivi" remote="caf-ype" revision="88357c7a3855b3e32e2173a51f6afe2a6881be5a"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="ae9b341ecfcc60e970f29cfe04306411ad26c0cf"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="d17c0c1a6bbdf4a387dc95a349c97940d296203d" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/gstreamer/gst-mprtp" revision="ab4db3efe6709dd7c79025241029edea2b1e2086" upstream="LV.HB.1.1.1_rb1.43" path="gstreamer/gst-mprtp"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="5168cd69b0b44c4f948b045e39931dcc413aa705" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="kernel/msm-4.4" revision="782dfac97f97cd962fe09c5cba5200ceceefba69" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="169412bc77d33c4d800d9de82cddc388824cf630" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/mesa/drm" path="graphics/libdrm" revision="670a3ff3cff0a4c27db351f79ec5b558d80f1d50" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="meta-genivi-demo" remote="caf-le" revision="595a1e894975f5f62d6701536c031592bebca17a"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="6927d14d9017fddbd26d5b2bfbc9cd64d60977c1" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/meta-qti-core" path="disregard/poky/meta-qti-core" revision="8dbe98fd71c065672b509a4a5649b8011b0321b2" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/meta-qti-data" path="disregard/poky/meta-qti-data" revision="0f0d24e7117c0534070d7731da61c97f8138a0a9" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display" revision="8ed61073e9bec136fdb6f3de5ffb6051b4ebb6eb" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="disregard/poky/meta-qti-ss-mgr" revision="8ac08833a7e2577fae8857b3fa5518138492c6e0" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="meta-rust" remote="caf-le" revision="d0663639a08ed60bb83fd6eb99e3e2045b21b53c"/>
+  <project name="meta-selinux" path="poky/meta-selinux" remote="caf-le" revision="bae51859f0dbcdde9fd563d15128a6dbbb816801"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="26926d847e32818f231a5f7d8a6b9cf36a674504" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/build" path="android_compat/build" revision="964200cd7422e5f023d36749c0634065d486ec47" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/automotive/platform/external/Open-AVB" path="vehiclenetwork/Open-AVB" revision="4f0ad89c8fb650d1c09678c8535dbb2dadeebe5f" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff" revision="3358bd0b08ad28aa0534c2ff28f93ef297e4a570" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="0143c07f3b1594a9259b7a0fe041deb5f4db8099" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/platform/external/connman" path="external/connman" revision="e5fb6d78fb3a741390a0065fbe47c018619b437e" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/external/libdrm" path="disregard/external/libdrm" revision="b404411b9b1842297341c82117e59898501d016b" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/external/libunwind" path="external/libunwind" revision="157a1805420b856673d79ce69bfbf495505b378d" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/external/ofono" path="external/ofono" remote="caf-le" revision="e51b39e92cffb30c4bc0f95a1c24b9ee9ce22b54"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="65b53451188207408c34a11d7436273ffdb3f931" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="5f977520aa41659d8c51ffe16ba9611b72944388" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="3ea741e7d42e5f3979f72228af5c1ebba3215ee2" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="6a8f4f671b497c882457530163539050d4bccde5" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/hardware/qcom/camera" path="camera/lib" revision="f0448dc2242e38d0e9779158425792325685caa1" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/hardware/qcom/display" path="display/display-hal" revision="fe8ce86d54f260d8960e12de1e59a2ac52e7eba0" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="bef7a2e2f2fb4bd5bcd0f9cc04ca0d29ed3de91c" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="5ac6b38ba0ca5e566ccc65f05403d34ed9cb0722" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/system/core" path="system/core" revision="a59a1c252861c87ee874dcee3fe35ce747cc1a9b" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/system/extras" path="system/extras" revision="7f1dbd8504325688d8122bf237cdb2dc9d2c8353" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/Ethernet" path="vehiclenetwork/ethernet" revision="029d5211d072b6bddd86b5227d8bcc9d710c1b86" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/Ethernet-hsic" path="qcom-opensource/ethernet/neutrino/driver" revision="d8af87377d765dc07cf58a7422f5120a6dbc3f64" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="3395af897e739a4afdf020c4c5f0b52036ed9d1f" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="disregard/data-kernel" revision="1448c58d09104c6e51765c2132b5099cac5ec70b" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="597482dad495d5f087b7c78264b95adb2968cc88" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/gst-sample" path="gstreamer/gst-sample" revision="905e63a972157d70846374ecf137a9845ee3b694" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="c7ceae905b1b26e5df6b7eed28ece735f6bf3e28" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="3a456d8ae8164e7e338d1a0ce8d2593b12f7fa6b" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="66378281463d3cecb74fe5c7e6a9d6a938fd660b" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/mm-audio" path="audio/mm-audio-opensource" revision="7f9a53abdbce6b5ab1b0493b8eb0fab1770fcbae" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/multimodule-mgr-oss" path="multimodule-mgr-oss" revision="bdd5531643d01590974005450c2d78566d4fada1" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/ptp-virtual" path="vehiclenetwork/ptp-virtual" revision="82f186edbe850d46d7ff539a56c91bb94b676cd2" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/qmmf-sdk" path="vendor/qcom/opensource/qmmf-sdk" revision="22a7398fede061b70209d36bb923dcb24fe47f64" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/qmmf-webserver" path="vendor/qcom/opensource/qmmf-webserver" revision="0166486a99f2176eed657098e32e44be2b0f254a" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="a996064cc0169e24e48881f38073fcca5f59c743" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/synergy" path="synergy/synergy-opensource" revision="03abdf84a9f564016a2e1595e41b64af7ec0c0e1" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="disregard/tcp-splice" revision="ab837eb1d98e20fde790e8c2b861aec34f5c3229" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="38c7271c395a84ff59a806ba6428142d65aa90da" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/wlan/tools" path="wlan/tools" revision="1cfeeb4178178b56a07cf48b0fdf522398fac587" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut" revision="d68480fb1f353dd72878caaa5e6bc5fdbd03071b" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom/cobalt" path="android_compat/device/qcom/msmcobalt" revision="43dc8ef066921f677a7a741f1f1fc69c8a766163" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom/ferrum" path="android_compat/device/qcom/msm8909" revision="75f6d52123dd15d25f403a074a08ecf162e9a742" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom/thorium_32" path="android_compat/device/qcom/msm8937_32" revision="35fb43c4aa48d774f412d649e09cb0f965199403" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom/thorium_64" path="android_compat/device/qcom/msm8937" revision="580a690a083c12ac823834de222cadb89144410d" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom/thulium" path="android_compat/device/qcom/msm8996" revision="19d34af96489a4744a30f0734b4efc32a5415a6c" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom/titanium_32" path="android_compat/device/qcom/msm8953_32" revision="b9563eefcc454a760074dfb57eb436c193e8d890" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="platform/vendor/qcom/titanium_64" path="android_compat/device/qcom/msm8953" revision="a13015621c5c7afbe08f55d1eeb96cd52d964e5e" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/pmipv6" revision="42503f582c9e14deaff0602e4f46b8e0a19ece86" upstream="LV.HB.1.1.1_rb1.43" path="pmipv6"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="115c58d68f0571619595c5af31ddf34974ee7416" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="b867afeec53494f6ab3e5789a19810f708883535" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/sofia-sip" revision="7237688b1768f9208716638ec13b53d42ce5a23c" upstream="LV.HB.1.1.1_rb1.43" path="sofia-sip"/>
+  <project name="quic/le/strongswan" path="external/strongswan" revision="7d48c58f0bedb017c2fd8aea912a2277935b36b3" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/systemd" path="external/systemd" revision="ec3c51a52729f83ad70bec939811fe34d97d3170" upstream="LV.HB.1.1.1_rb1.43"/>
+  <project name="quic/le/wayland/weston" path="graphics/weston" revision="922d9a68bae67eff8e0f4701d5abf3bca7d5c937" upstream="LV.HB.1.1.1_rb1.43"/>
+</manifest>
