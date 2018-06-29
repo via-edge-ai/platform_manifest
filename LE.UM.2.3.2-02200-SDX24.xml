@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.2.3.2.r1.4"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="17264c4e8ec8acadb7c1ca2cdbb532f827767f6b" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="f4372765f3fdae26a8e666548fba3e55f5b837c0" upstream="refs/heads/yocto/rocko"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="d17c0c1a6bbdf4a387dc95a349c97940d296203d" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="kernel/msm-4.9" revision="4c492ef22eadb75a7fbbd1beabb8aef13e668820" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="169412bc77d33c4d800d9de82cddc388824cf630" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio" revision="500fd347d34b652da2c462111906fec77fab856d" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="fbc63193da22bd4edfda49e19e1272b2a7aaa648" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-bt" path="poky/meta-qti-bt" revision="39b6f6a21b4f97a76034978f1aa99c2ff8624d28" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="99762ac1d273dbf6a5946cccb9dc9a7d0c5918ce" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="266f723c48afd80b600e6c678d22139fdfc25f6a" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-location" path="poky/meta-qti-location" revision="6baa5df429de6afbe1f61e9edf8b6bf5193cf5d2" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="0270f8a4f41627d511272ca40d741371e00ab6f3" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="2e00b8ebceb63f46e809aeb60af5ffa80fe00853" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-ssdk" path="poky/meta-qti-ssdk" revision="f82c6f7dd89169970e494a73f52211234b31a789" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="76ed0f8d01331bc2d3505a103a0efa2bda16e16f" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux" revision="2c4c786ab8da5fc29ce709b195346600a105cfc8" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/oss/lklm/qca-ssdk" path="qcom-opensource/qca-ssdk" revision="a8740b2b57755c77557ea7678b8d333d5bacbb99" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/oss/ssdk-shell" path="qcom-opensource/qca-ssdk-shell" revision="ffbf8a898fd8672b13f043ad3bec75d6529a4e0d" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="0143c07f3b1594a9259b7a0fe041deb5f4db8099" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/external/libunwind" path="external/libunwind" revision="7ae792b4d98fb654b494675ba0f541bf2e664d55" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="f4d584e1d37e8ae17829b7e4dff55913127f5e46" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="5cb51621a04a2ac4a9ed07a1322401634ff26e0d" upstream="LE.UM.2.3.2.r1.4"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="6225a270834ce3d037a2bbb5fd3ac7e83df6045a" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="369f7f19ae7bbdd96feae569b5d6ccf2ac46a1fa" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="bb720683303e389be3335cb0b37d6805109f2e39" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="19a61af5d6f83f2b20d99fe60018f926329edd0e" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/platform/qcom-opensource/bt" path="qcom-opensource/bt" revision="c64d480af7fe6728f110a814fd669a7b2fdb0ff2" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/system/bt" path="system/bt" revision="5ca27899477954ca196d83066786db8693b4aa20" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/system/core" path="system/core" revision="b610bb5c50d72cf1bb00d2753fec245d08e9aaf3" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/system/extras" path="system/extras" revision="c52740b016fee697081e32092958f38ce106581f" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="kernel/msm-4.9/techpack/audio" revision="2b2d9acc25d0011b1f6bee9306486b139dca281b" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="6fc51cd25c85909393ed4dc0f788e9c1289c1269" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="cd1b9f42040bccaf554f9772e9e89b6c0209d953" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel" revision="4621135bf6a43fa6b3b815a147813849476d1bb6" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="597482dad495d5f087b7c78264b95adb2968cc88" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="f546480e5dc836f93b883f11b1a1fbf1c1bf36f9" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="ecdb15f1ebfb6fb2bc3d18b5a077ee48be0e8f00" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/location" path="qcom-opensource/location" revision="d8d8bdeafd55fd911da38290ad8a31fcc77ddc19" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="819ed8e2d28739df5ca3888f6aaf5aa40c3bc081" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice" revision="ab837eb1d98e20fde790e8c2b861aec34f5c3229" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="wlan/fw-api" revision="c6f7ff28518b0a64a9c2614d71bcb689bffb22d5" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="wlan/qca-wifi-host-cmn" revision="95795765907e6cd15edd8aa0d4c7f61c08b17af5" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="wlan/qcacld-3.0" revision="113308d2b50942a10769e52e714a21a47285a175" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/wlan/tools" path="disregard/vendor/opensource/wlan/tools" revision="da24579cc965c240ee66ad3c2501d7ce6d0d86e2" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut" revision="5b01f88b3fc841eaf7b5fba5754872f4a02e415b" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/pmipv6" revision="e1767066b85009c636668f768bf8a2e1a1695ba6" upstream="LE.UM.2.3.2.r1.4" path="pmipv6"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="feb8fc8728ba5be64ada7988e67186f4b66cfdf8" upstream="LE.UM.2.3.2.r1.4"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="93be55efda38a242eda44e4931d9cef412e1a798" upstream="LE.UM.2.3.2.r1.4"/>
+</manifest>
