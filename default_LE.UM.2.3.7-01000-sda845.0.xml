@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.2.3.7"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="f4372765f3fdae26a8e666548fba3e55f5b837c0" upstream="refs/heads/yocto/rocko"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils"/>
+  <project name="kernel/msm-4.9"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display"/>
+  <project name="quic/le/meta-qti-qmmf" path="poky/meta-qti-qmmf"/>
+  <project name="quic/le/meta-qti-security" path="poky/meta-qti-security"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless"/>
+  <project name="platform/external/libdrm" path="display/libdrm"/>
+  <project name="platform/external/libselinux" path="external/libselinux"/>
+  <project name="platform/external/libunwind" path="external/libunwind"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="display/display-hal"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss"/>
+  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/qmmf-sdk" path="vendor/qcom/opensource/qmmf-sdk"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/qmmf-webserver" path="vendor/qcom/opensource/qmmf-webserver"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice"/>
+  <project name="quic/le/pmipv6" path="pmipv6"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf"/>
+  <project name="quic/le/wayland/weston" path="display/weston"/>
+</manifest>
