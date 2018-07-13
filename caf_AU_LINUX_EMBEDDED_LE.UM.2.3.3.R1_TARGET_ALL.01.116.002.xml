@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="3d51d3b90741d0d41d2ec910bc483abadc3f8d9f" upstream="refs/heads/uefi.lnx.1.9.r27-rel"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="9589076fed41fe9c5749445e9210406fea362277" upstream="refs/heads/yocto/rocko"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="d17c0c1a6bbdf4a387dc95a349c97940d296203d" upstream="refs/heads/core-technologies.lnx.1.0.r58-rel"/>
+  <project name="kernel/msm-4.9" revision="d69f47b72c8a7b66225bfe25213d1af990d9c2de" upstream="refs/heads/kernel.lnx.4.9.r23-rel"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="169412bc77d33c4d800d9de82cddc388824cf630" upstream="refs/heads/mdm-ss-mgr.lnx.1.0.r16-rel"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio" revision="68942a11af5d90ea312891904a2659a0533b378e" upstream="refs/heads/audio-hal.lnx.4.0.r25-rel"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="6ef00263810a3ee3ab574fbebb5a892da45072d5" upstream="refs/heads/yocto.lnx.2.0.r5-rel"/>
+  <project name="quic/le/meta-qti-bt" path="poky/meta-qti-bt" revision="39b6f6a21b4f97a76034978f1aa99c2ff8624d28" upstream="refs/heads/bt-fluoride.le.2.0.r12-rel"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="99762ac1d273dbf6a5946cccb9dc9a7d0c5918ce" upstream="refs/heads/core-technologies.lnx.1.0.r58-rel"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="c8e4f826517c75a27f7a621203dedee4f2d4a66f" upstream="refs/heads/data.lnx.1.0.r24-rel"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display" revision="34766f6e716130fd878e6a49ee718510d7a88d3f" upstream="refs/heads/display.lnx.3.0.r35-rel"/>
+  <project name="quic/le/meta-qti-qmmf" path="poky/meta-qti-qmmf" revision="ca5ff5a25e8f2dc59536640398e7b422b333b59a" upstream="refs/heads/meta-qti-qmmf-recipes.lnx.2.0.r2-rel"/>
+  <project name="quic/le/meta-qti-security" path="poky/meta-qti-security" revision="5defa68586591c844b405878c546d0b38e04cdc7" upstream="refs/heads/sec-userspace.lnx.1.0.r33-rel"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="0fc7c685df4db5eef461f93a39c2c3818811a2ac" upstream="refs/heads/le-sepolicy.lnx.2.0.r5-rel"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="6ab66b46d744b39a145d4d70448f204ecec2e339" upstream="refs/heads/mdm-ss-mgr.lnx.1.0.r16-rel"/>
+  <project name="quic/le/meta-qti-video" path="poky/meta-qti-video" revision="ea26bc9afc5989795b12b78ab4d038fb4f3b9db9" upstream="refs/heads/video-userspace.lnx.3.0.r14-rel"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux" revision="2c4c786ab8da5fc29ce709b195346600a105cfc8" upstream="refs/heads/le-sepolicy.lnx.2.0.r5-rel"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="0143c07f3b1594a9259b7a0fe041deb5f4db8099" upstream="refs/heads/data.lnx.1.0.r24-rel"/>
+  <project name="platform/external/libdrm" path="display/libdrm" revision="3b2322f8d715dc5967fbc859491dc39010f20a6d" upstream="refs/heads/display.lnx.3.0.r35-rel"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="refs/heads/le-blast.lnx.1.2.r5-rel"/>
+  <project name="platform/external/libunwind" path="external/libunwind" revision="7ae792b4d98fb654b494675ba0f541bf2e664d55" upstream="refs/heads/le-blast.lnx.1.2.r5-rel"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.2.r5-rel"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="5cb51621a04a2ac4a9ed07a1322401634ff26e0d" upstream="refs/heads/le-blast.lnx.1.2.r5-rel"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="aa5b775645af2e5f3f3ccdd0ef1179f31f309251" upstream="refs/heads/audio-hal.lnx.4.0.r25-rel"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="369f7f19ae7bbdd96feae569b5d6ccf2ac46a1fa" upstream="refs/heads/bt-fluoride.le.2.0.r12-rel"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="display/display-hal" revision="a4a8d6290de3f81d6488fc3cf0a035f766206f29" upstream="refs/heads/display.lnx.3.0.r35-rel"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="3f2b3f6cf802394a6cc24f69b18753b09500b0db" upstream="refs/heads/video-userspace.lnx.3.0.r14-rel"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="19a61af5d6f83f2b20d99fe60018f926329edd0e" upstream="refs/heads/mdm-ss-mgr.lnx.1.0.r16-rel"/>
+  <project name="quic/le/platform/qcom-opensource/bt" path="qcom-opensource/bt" revision="5691e0ad54e71082cab40e3f8d170e11126857ce" upstream="refs/heads/bt-fluoride.le.2.0.r12-rel"/>
+  <project name="platform/system/bt" path="system/bt" revision="3f038e320f5cf9d83e6f6229c71d3d148e5cb9ca" upstream="refs/heads/bt-fluoride.le.2.0.r12-rel"/>
+  <project name="platform/system/core" path="system/core" revision="f4a63552a5394772f93a8faab39bf3823bfff188" upstream="refs/heads/le-blast.lnx.1.2.r5-rel"/>
+  <project name="platform/system/extras" path="system/extras" revision="c52740b016fee697081e32092958f38ce106581f" upstream="refs/heads/le-blast.lnx.1.2.r5-rel"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel" revision="4d64b5aed6f9f298f940d0eb8b35e74f0bc49556" upstream="refs/heads/audio-drivers.lnx.2.0.r10-rel"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="10e479ab9caf63d389827fb2c434520925df158c" upstream="refs/heads/bt-fluoride.le.2.0.r12-rel"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="904074658f66043a5568895654408e90a634fb89" upstream="refs/heads/data.lnx.1.0.r24-rel"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel" revision="4ece8d8aeff0cde90ea46c8622dcce994c8f5f30" upstream="refs/heads/data.lnx.1.0.r24-rel"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="597482dad495d5f087b7c78264b95adb2968cc88" upstream="refs/heads/data.lnx.1.0.r24-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="febfd1186a5802b4040b1c53681251d2fdfd0b6c" upstream="refs/heads/le-frameworks.lnx.2.0.r5-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/qmmf-sdk" path="vendor/qcom/opensource/qmmf-sdk" revision="cff784d7a3b2db8f69ad81176638e3bb6c514b33" upstream="refs/heads/iot-concam.lnx.2.0.r4-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/qmmf-webserver" path="vendor/qcom/opensource/qmmf-webserver" revision="f6e48375718ec34b00666b0c4f3285a692a85771" upstream="refs/heads/iot-concam.lnx.2.0.r4-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="0c1a59db50537d52ac9bef976bd26568debcba48" upstream="refs/heads/data.lnx.1.0.r24-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice" revision="ab837eb1d98e20fde790e8c2b861aec34f5c3229" upstream="refs/heads/data.lnx.1.0.r24-rel"/>
+  <project name="quic/le/pmipv6" revision="e1767066b85009c636668f768bf8a2e1a1695ba6" upstream="refs/heads/data.lnx.1.0.r24-rel" path="pmipv6"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="37af4f09caf57761cca1227c977f9eea4c108bf1" upstream="refs/heads/wlan-tools.lnx.1.0.r33-rel"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="fae17b24ac55c81ab06d293f0ad3025fe70ef268" upstream="refs/heads/yocto.lnx.2.0.r5-rel"/>
+  <project name="quic/le/wayland/weston" path="display/weston" revision="9565637d7100f62635ce59f720bfee129e232806" upstream="refs/heads/display.lnx.3.0.r35-rel"/>
+</manifest>
