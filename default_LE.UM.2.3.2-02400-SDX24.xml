@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.2.3.2.r1.5"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="9589076fed41fe9c5749445e9210406fea362277" upstream="refs/heads/yocto/rocko"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils"/>
+  <project name="kernel/msm-4.9"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp"/>
+  <project name="quic/le/meta-qti-bt" path="poky/meta-qti-bt"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data"/>
+  <project name="quic/le/meta-qti-location" path="poky/meta-qti-location"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr"/>
+  <project name="quic/le/meta-qti-ssdk" path="poky/meta-qti-ssdk"/>
+  <project name="quic/le/meta-qti-wlan" path="poky/meta-qti-wlan"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux"/>
+  <project name="quic/le/oss/lklm/qca-ssdk" path="qcom-opensource/qca-ssdk"/>
+  <project name="quic/le/oss/ssdk-shell" path="qcom-opensource/qca-ssdk-shell"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless"/>
+  <project name="platform/external/libselinux" path="external/libselinux"/>
+  <project name="platform/external/libunwind" path="external/libunwind"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss"/>
+  <project name="quic/le/platform/qcom-opensource/bt" path="qcom-opensource/bt"/>
+  <project name="platform/system/bt" path="system/bt"/>
+  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="kernel/msm-4.9/techpack/audio"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks"/>
+  <project name="platform/vendor/qcom-opensource/location" path="qcom-opensource/location"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="wlan/fw-api"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="wlan/qca-wifi-host-cmn"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="wlan/qcacld-3.0"/>
+  <project name="platform/vendor/qcom-opensource/wlan/tools" path="disregard/vendor/opensource/wlan/tools"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut"/>
+  <project name="quic/le/pmipv6" path="pmipv6"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf"/>
+</manifest>
