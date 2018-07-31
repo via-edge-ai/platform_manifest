@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.1.0" name="quic/le/eap-qti-kernel" path="sources/eap-qti-kernel" revision="5995a151f604c1e641513ab73827b384c5c5a221" upstream="refs/heads/mdm-eap.lnx.1.0"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.1.0" name="quic/le/meta-qti-eap" path="sources/meta-qti-eap" revision="535c1368b31650cb4dbc36e2c2c074e141a8b065" upstream="refs/heads/mdm-eap.lnx.1.0"/>
+  <project dest-branch="refs/heads/data.lnx.1.0" name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="597482dad495d5f087b7c78264b95adb2968cc88" upstream="refs/heads/data.lnx.1.0"/>
+  <project dest-branch="refs/heads/location.lnx.3.0" name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="54e910ac0d6287dfc02bdf5c1d2ca98bc8cf0893" upstream="refs/heads/location.lnx.3.0"/>
+</manifest>
