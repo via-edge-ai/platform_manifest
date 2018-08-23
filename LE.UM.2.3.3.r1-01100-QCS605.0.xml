@@ -49,4 +49,13 @@
   <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="b6a0fb8c2b9dd2107b5672d21e2546b88da69367" upstream="refs/heads/wlan-tools.lnx.1.0.r33-rel"/>
   <project name="quic/le/qti-conf" path="poky/build/conf" revision="5afa6b066d09ffdc7c0f8d4f419e2cbe3630a991" upstream="refs/heads/yocto.lnx.2.0.r5-rel"/>
   <project name="quic/le/wayland/weston" path="display/weston" revision="dcdf11aca626cdd311611e49d08ced49dbc3d692" upstream="refs/heads/display.lnx.3.0.r35-rel"/>
+  <project name="quic/le/wayland/weston" path="display/weston" revision="dcdf11aca626cdd311611e49d08ced49dbc3d692" upstream="refs/heads/display.lnx.3.0.r35-rel"/>
+  <project name="iquic/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="52c76962c20209e9aa5a4bffe567d3c7631bf1c0" upstream="refs/heads/wlan-service.lnx.1.0.r15-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="wlan/fw-api" revision="42078fd69bf20b629c1f65d3baa121dca11937be" upstream="refs/heads/wlan-api.lnx.1.1.r59-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="wlan/qcacld-3.0" revision="3dc6e45a0d0630b8ff0830cbf350cc4f79cf8503" upstream="refs/heads/wlan-cld3.driver.lnx.1.1.r55-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="wlan/qca-wifi-host-cmn" revision="04156d1f93040c2ddc2f98188bed1a7bad0e39ec" upstream="refs/heads/wlan-cmn.driver.lnx.1.0.r55-rel"/>
+  <project name="platform/system/qcom" path="wlan/softap" revision="5c1a3abaf099e25a209792c8857402cc785a9e88" upstream="refs/heads/wlan-service.lnx.1.0.r15-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/tools" path="wlan/tools" revision="da24579cc965c240ee66ad3c2501d7ce6d0d86e2" upstream="refs/heads/wlan-tools.lnx.1.0.r33-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut" revision="5b01f88b3fc841eaf7b5fba5754872f4a02e415b" upstream="refs/heads/wlan-service.lnx.1.0.r15-rel"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="f4d584e1d37e8ae17829b7e4dff55913127f5e46" upstream="refs/heads/wlan-service.lnx.1.0.r15-rel"/>
 </manifest>
