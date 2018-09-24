@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.1.3.r3.24"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="77a568a123850952bb71f5b5b800e37ed5ebcc20" upstream="LE.UM.1.3.r3.24"/>
+  <project name="device/qcom/common" path="android_compat/device/qcom/common" revision="eaa9ca82740fe9c566db4603cf8c14cb41bf6c38" upstream="LE.UM.1.3.r3.24"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="331275422b2c3f326f605c23ae89eedb4e222eb5" upstream="refs/heads/yocto/jethro"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="d17c0c1a6bbdf4a387dc95a349c97940d296203d" upstream="LE.UM.1.3.r3.24"/>
+  <project name="kernel/msm-4.4" revision="09f46e499e3ebbbc70dc1038056066bec5f94729" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="4fea02fafa7f99858eb1d7e647e13c364aec0e2a" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio" revision="23aa92331302af5408b954f03684dd5d918a6af9" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="f24ce308966db2bec4ab39375a881182af0b8b45" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-bt" path="poky/meta-qti-bt" revision="bfbf1cc640edbb15f85418ed0f4b0f72aac6a310" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-camera" path="poky/meta-qti-camera" revision="9702c46be3e1626943c818d7d50a2e9d5d2c1402" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="0def2c8dcdab9b58fc63110e41e08f60430dad5b" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="e44756924212628b3532a536dc74bd1a4d0249d3" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display" revision="e46a2cbc5beef200013c15eac62567f36061084e" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-gst" path="poky/meta-qti-gst" revision="4bcf4395a6c3d9b52223a8239f29f2e1ddd724ee" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-qsap" path="poky/meta-qti-qsap" revision="746fccb8773f28862282bdc92b5036e40506d81d" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-security" path="poky/meta-qti-security" revision="5defa68586591c844b405878c546d0b38e04cdc7" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="2aea6500b422903796304eab20ee39e4f538ed6d" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-video" path="poky/meta-qti-video" revision="9acfc58295ee8fe87602a74a0d6974ba60a83e18" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="453a56f3b3497f95be999849345daa1bb987b0d6" upstream="LE.UM.1.3.r3.24"/>
+  <project name="meta-selinux" path="poky/meta-selinux" remote="caf-le" revision="4c75d9cbcf1d75043c7c5ab315aa383d9b227510" upstream="refs/heads/yocto/jethro"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="c69111ab4131d731ee5c9eb6facca778417e4e32" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/build" path="android_compat/build" revision="53f0f36d3ddefbb709aef7501ab8b0f079f4bffd" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="bf36c74d337a9d98b9d00a444596847b61a906a6" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff" revision="3358bd0b08ad28aa0534c2ff28f93ef297e4a570" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="24900fe7068f56bf7c5e9f78bda34f1a526ce84a" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/external/libdrm" path="display/libdrm" revision="3b2322f8d715dc5967fbc859491dc39010f20a6d" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/external/libunwind" path="external/libunwind" revision="8f0a3d2a5f1f2aa320ececf61146797d63b0140a" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="e531f6d3f2386dd90c1cd669339d902d5c68357a" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="09ceb836eb66646b1ad0aef4dc76e223d7b9b5c1" upstream="LE.UM.1.3.r3.24"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="5863161a8f3cd0d31c330c128d2479131bbfb8bc" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="19f1dc0f88eda4dbbe5a9d14acab3516eb3c87c5" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/hardware/qcom/camera" path="camera/lib" revision="8d5d2944be3a596e7c2c4dda93d429aaac20f17a" upstream="LE.UM.1.3.r3.24"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="display/display-hal" revision="56faddf5d17d4deee0b061ee42e1c8b3376d6d49" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="f7d2af882b55dd05d11bb403474c402eacb3a2ca" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="49bfe17446df8da0931862277b0e94d58ed19392" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="4ac3450c6abfc2751126b4361d6a46c27b30e13b" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/packages/apps/SnapdragonCamera" path="disregard/packages/apps/SnapdragonCamera" revision="d1394828f6117ac0dd3430d407ceae06d7804656" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="173b98fbb3d1a68241f17de1129c4842c9d1e5dd" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="6ca6746f5fafd7d1b162451dce2ae40741529e9e" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/platform/qcom-opensource/bt" path="qcom-opensource/bt" revision="a040ed9055a249382cd286db6669f421bcd8a6e1" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/system/bt" path="system/bt" revision="38033ac08d4fb56e81049a6a4f6976bce5f82627" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/system/core" path="system/core" revision="9ec6640c1bd0bfe9b4206a3845df601b6ef465f7" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/system/extras" path="system/extras" revision="6f7fd1e62d65618770d5af0ed70dddd58f103ce6" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="8754203cbaafd4c4f4cf37a6ed50396701cc5c0e" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="a2df4fce99e180acf20b75adcae0513655470b32" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel" revision="07b198778d56310350a58032366dd29dc5300232" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="597482dad495d5f087b7c78264b95adb2968cc88" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="3c99d4a29ab49eb6b482997e7a3f5adccdaafe3e" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="e9a7f10b8c51e010b8d3d492a09109d796423331" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice" revision="b950872ccb368210e39a4ea8344c0460728436d3" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut" revision="73772164e2a9d96618c13ee7c2f1eb1857ec0560" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom/cobalt" path="android_compat/device/qcom/msmcobalt" revision="3989d707860fc9339d2f70604bfb6a626a5a0a8f" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom/ferrum" path="android_compat/device/qcom/msm8909" revision="b3adc3470f57db34d19a24b61fa3b267eaa263e5" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom/thorium_32" path="android_compat/device/qcom/msm8937_32" revision="6c9536b56a9c7de16d655bd6808562e7f802c6f4" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom/thorium_64" path="android_compat/device/qcom/msm8937" revision="862a2d136c28d0047e33caca3b449157431ea79c" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom/thulium" path="android_compat/device/qcom/msm8996" revision="37b3159cceec7bf172aa5ec5489fb43e5be7bcbd" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom/titanium_32" path="android_compat/device/qcom/msm8953_32" revision="61381fb60174eeb6e031cc186d851f2fc244d95e" upstream="LE.UM.1.3.r3.24"/>
+  <project name="platform/vendor/qcom/titanium_64" path="android_compat/device/qcom/msm8953" revision="ce057d3950bb531b9b7c136e66ee25cd82e097d9" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="727a564c7de9822f1576c562470459c0242e80bd" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="afd1339f7846387675b2be96c8339acd34df9530" upstream="LE.UM.1.3.r3.24"/>
+  <project name="quic/le/wayland/weston" path="display/weston" revision="624214444b43ea6dabf0dd0237beab554042760c" upstream="LE.UM.1.3.r3.24"/>
+</manifest>
