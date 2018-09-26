@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/imm" name="caf-imm" review="null"/>
+  <remote fetch="git://codeaurora.org/external/imx" name="caf-imx" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="CHSS.LNX_FSL.2.1_rb1.6"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="sources/meta-qt5" remote="caf-ype" revision="ff073f04109900fc07bf81e2f1df63c626caf342"/>
+  <project name="external/openembedded.org/meta-openembedded" path="sources/meta-openembedded" remote="caf-ype" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e"/>
+  <project name="external/yoctoproject.org/poky" path="sources/poky" remote="caf-ype" revision="78890ea22750804e3e9113e76f7ca3d7234c8342"/>
+  <project name="imm/meta-browser" path="sources/meta-browser" remote="caf-imm" revision="10f6e3778d823ee1be106c126216c6f941088fbf"/>
+  <project name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" remote="caf-imx" revision="daba3340ecd8b358e0c6c415baeee0fcae95c525"/>
+  <project name="quic/le/meta-qti-connectivity" path="sources/meta-qti-connectivity" revision="51ebd702da5f6b481992ed7fd4c42822c144a86e" upstream="CHSS.LNX_FSL.2.1_rb1.6"/>
+  <project name="platform/external/wpa_supplicant_8" path="sources/wlan-opensource/wpa_supplicant_8" revision="fbd177d71b593d6421fe82b1e4d0293fda167342" upstream="CHSS.LNX_FSL.2.1_rb1.6"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="sources/wlan-opensource/qcacld-2.0" revision="4e6e17faf809b7bc61ed3d348bcefe147a0efea2" upstream="CHSS.LNX_FSL.2.1_rb1.6"/>
+  <project name="platform/vendor/qcom-opensource/wlan/tools" path="sources/wlan-opensource/dsrc-tool" revision="da24579cc965c240ee66ad3c2501d7ce6d0d86e2" upstream="CHSS.LNX_FSL.2.1_rb1.6"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="sources/wlan-opensource/sigma-dut" revision="231ae01b2246f7c021cb1a4145cc98855127b2ff" upstream="CHSS.LNX_FSL.2.1_rb1.6"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="sources/wlan-opensource/mdm-init" revision="fa3ecf9e4661dcf6c0c82c9eee042fdef1670d2e" upstream="CHSS.LNX_FSL.2.1_rb1.6"/>
+</manifest>
