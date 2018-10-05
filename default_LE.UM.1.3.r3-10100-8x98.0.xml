@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.1.3.r3.25"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
+  <project name="device/qcom/common" path="android_compat/device/qcom/common"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="refs/heads/yocto/jethro"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils"/>
+  <project name="kernel/msm-4.4"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp"/>
+  <project name="quic/le/meta-qti-bt" path="poky/meta-qti-bt"/>
+  <project name="quic/le/meta-qti-camera" path="poky/meta-qti-camera"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display"/>
+  <project name="quic/le/meta-qti-gst" path="poky/meta-qti-gst"/>
+  <project name="quic/le/meta-qti-qsap" path="poky/meta-qti-qsap"/>
+  <project name="quic/le/meta-qti-security" path="poky/meta-qti-security"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr"/>
+  <project name="quic/le/meta-qti-video" path="poky/meta-qti-video"/>
+  <project name="quic/le/meta-qti-wlan" path="poky/meta-qti-wlan"/>
+  <project name="meta-selinux" path="poky/meta-selinux" remote="caf-le" revision="refs/heads/yocto/jethro"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery"/>
+  <project name="platform/build" path="android_compat/build"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless"/>
+  <project name="platform/external/libdrm" path="display/libdrm"/>
+  <project name="platform/external/libselinux" path="external/libselinux"/>
+  <project name="platform/external/libunwind" path="external/libunwind"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
+  <project name="platform/hardware/qcom/camera" path="camera/lib"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="display/display-hal"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss"/>
+  <project name="platform/packages/apps/SnapdragonCamera" path="disregard/packages/apps/SnapdragonCamera"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86"/>
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
+  <project name="quic/le/platform/qcom-opensource/bt" path="qcom-opensource/bt"/>
+  <project name="platform/system/bt" path="system/bt"/>
+  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut"/>
+  <project name="platform/vendor/qcom/cobalt" path="android_compat/device/qcom/msmcobalt"/>
+  <project name="platform/vendor/qcom/ferrum" path="android_compat/device/qcom/msm8909"/>
+  <project name="platform/vendor/qcom/thorium_32" path="android_compat/device/qcom/msm8937_32"/>
+  <project name="platform/vendor/qcom/thorium_64" path="android_compat/device/qcom/msm8937"/>
+  <project name="platform/vendor/qcom/thulium" path="android_compat/device/qcom/msm8996"/>
+  <project name="platform/vendor/qcom/titanium_32" path="android_compat/device/qcom/msm8953_32"/>
+  <project name="platform/vendor/qcom/titanium_64" path="android_compat/device/qcom/msm8953"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf"/>
+  <project name="quic/le/wayland/weston" path="display/weston"/>
+</manifest>
