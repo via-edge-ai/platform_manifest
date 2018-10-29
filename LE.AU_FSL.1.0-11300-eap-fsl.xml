@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.1.0" name="quic/le/eap-qti-kernel" path="sources/eap-qti-kernel" revision="0f41b0db383a73b94421ec4bec1115f216a28486" upstream="refs/heads/mdm-eap.lnx.1.0"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.1.0" name="quic/le/meta-qti-eap" path="sources/meta-qti-eap" revision="04b02b7f59e37740ea1a5c3378421ba823e1bd06" upstream="refs/heads/mdm-eap.lnx.1.0"/>
+  <project dest-branch="refs/heads/telsdk.lnx.1.0" name="platform/hardware/ril" path="telux/services/ril" revision="747c2f9149a1af6780c65b180c35eba825c8dc6f" upstream="refs/heads/telsdk.lnx.1.0"/>
+  <project dest-branch="refs/heads/data.lnx.1.0" name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="597482dad495d5f087b7c78264b95adb2968cc88" upstream="refs/heads/data.lnx.1.0"/>
+  <project dest-branch="refs/heads/location.lnx.3.0" name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="9a079130a121d7979caf046d1a71210de645bae3" upstream="refs/heads/location.lnx.3.0"/>
+  <project dest-branch="refs/heads/telsdk.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/snaptel-sdk" path="telux/public" revision="bcbfb55af915e29218e0efc2b461897e1c35939f" upstream="refs/heads/telsdk.lnx.1.0"/>
+</manifest>
