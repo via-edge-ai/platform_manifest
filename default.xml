@@ -6,7 +6,7 @@
   <remote fetch="../.." name="git01"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <default remote="git01" revision="refs/heads/release-aiv.mt8385"/>
+  <default remote="git01" revision="refs/heads/release-aiv.mt8385" sync-j="8"/>
   <project name="yocto-aiv/src/kernel/linux/v4.4_mt8183" path="src/kernel/linux/v4.4_mt8183"/>
   <project name="meta-openembedded" path="meta/meta-openembedded" remote="oe" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93"/>
   <project name="meta-gplv2" path="meta/meta-gplv2" remote="yocto" revision="aabc30f3bd03f97326fb8596910b94639fea7575"/>
@@ -28,6 +28,7 @@
   <project name="yocto-aiv/meta/meta-mediatek" path="meta/meta-mediatek"/>
   <project name="yocto-aiv/meta/meta-mediatek-aud" path="meta/meta-mediatek-aud"/>
   <project name="yocto-aiv/meta/meta-mediatek-camera" path="meta/meta-mediatek-camera"/>
+  <project name="yocto-aiv/meta/meta-mediatek-clang" path="meta/meta-mediatek-clang"/>
   <project name="yocto-aiv/meta/meta-mediatek-gpl" path="meta/meta-mediatek-gpl"/>
   <project name="yocto-aiv/meta/meta-mediatek-ml-np" path="meta/meta-mediatek-ml-np"/>
   <project name="yocto-aiv/meta/meta-mediatek-mt8183" path="meta/meta-mediatek-mt8183"/>
