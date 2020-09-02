@@ -54,7 +54,6 @@
   <project name="yocto-aiv/prebuilt/ml/vp6" path="prebuilt/ml/vp6"/>
   <project name="yocto-aiv/prebuilt/multimedia/audio-misc/mtk-alsa-plugins" path="prebuilt/multimedia/audio-misc/mtk-alsa-plugins"/>
   <project name="yocto-aiv/prebuilt/multimedia/audio-misc/mtk-audio-service" path="prebuilt/multimedia/audio-misc/mtk-audio-service"/>
-  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/ppc_framework" path="prebuilt/multimedia/audio-misc/ppc_framework"/>
   <project name="yocto-aiv/prebuilt/multimedia/audio-misc/ppccli" path="prebuilt/multimedia/audio-misc/ppccli"/>
   <project name="yocto-aiv/prebuilt/multimedia/libcamera/mt8183" path="prebuilt/multimedia/libcamera/mt8183"/>
   <project name="yocto-aiv/prebuilt/multimedia/libmdp_prot" path="prebuilt/multimedia/libmdp_prot"/>
