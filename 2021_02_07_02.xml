@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://gerrit.automotivelinux.org/gerrit/" name="agl"/>
+  <remote fetch="http://git.projects.genivi.org" name="genivi"/>
+  <remote fetch="../.." name="git01"/>
+  <remote fetch="https://github.com" name="github"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  
+  <default remote="git01" revision="refs/heads/release-aiv.mt8365" sync-j="8"/>
+  
+  <project name="kraj/meta-clang" path="meta/meta-clang" remote="github" revision="b9e7c299d426e7e22e3ee45bebb5206ad8bc54fd"/>
+  <project name="meta-gplv2" path="meta/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac"/>
+  <project name="meta-openembedded" path="meta/meta-openembedded" remote="oe" revision="b1aa5f785094d25765657f1df7db0748680ae7fb"/>
+  <project name="meta-qt5/meta-qt5" path="meta/meta-qt5" remote="github" revision="c6aa602d0640040b470ee81de39726276ddc0ea3"/>
+  <project name="poky" path="meta/poky" remote="yocto" revision="a44b8d2856a937ca3991cbf566788b0cd541d777"/>
+  <project name="yocto-aiv/meta/meta-mediatek" path="meta/meta-mediatek" revision="c7182e8651888d888d913186709f09e9716ba876" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-camera" path="meta/meta-mediatek-camera" revision="2f73ddebf42f34800ab1b65e31cfd3007405a719" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-clang" path="meta/meta-mediatek-clang" revision="78f22ff19b74b43ebb4eb3e4e6e22575bd0e8e7c" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-classes-overlay" path="meta/meta-mediatek-classes-overlay" revision="5c1e8eea54da093ec507896511725e7e2003cf95" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-gpl" path="meta/meta-mediatek-gpl" revision="84fbf4ca3ef9bc50ef77e3a26c5d0d700ade115c" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-ml-np" path="meta/meta-mediatek-ml-np" revision="a3e260ce1e6c6f250dfa4d35480106dc3fe9328f" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-mt8133" path="meta/meta-mediatek-mt8133" revision="411ad605c3e10526fdd2f3dd32176d49583af5a6" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-mt8133-gpl" path="meta/meta-mediatek-mt8133-gpl" revision="b563f0c03f27ff990d560769af18c429da511f18" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-mt8175" path="meta/meta-mediatek-mt8175" revision="cc02c699f7231cf6707f901f9e85d57a8f0d4019" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-mt8175-gpl" path="meta/meta-mediatek-mt8175-gpl" revision="edafaabc25a4fcf38f9739067556084f2381c84b" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/meta/meta-mediatek-mt8365" path="meta/meta-mediatek-mt8365" revision="47c16a4d773a48208c3975b12c6472465710b276" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/prebuilt/bsp/trustzone" path="prebuilt/bsp/trustzone" revision="7f3c015dd5fd31414ab9b6f86596bab5c6f5a532"/>
+  <project name="yocto-aiv/prebuilt/bsp/tzapp" path="prebuilt/bsp/tzapp" revision="f1be60d0cd10ec8bb8967e2119865e0b0468c207"/>
+  <project name="yocto-aiv/prebuilt/connectivity/bt_others/ble_mesh" path="prebuilt/connectivity/bt_others/ble_mesh" revision="bceaee0dce7a72dc60165a85f862108a5f86f3a2"/>
+  <project name="yocto-aiv/prebuilt/connectivity/wlan_smartconnection" path="prebuilt/connectivity/wlan_smartconnection" revision="a5dec0abf6c5028bea1d9d0e7383d578b5cc272c"/>
+  <project name="yocto-aiv/prebuilt/graphics/mali/bifrost" path="prebuilt/graphics/mali/bifrost" revision="3e5560d8b16dbc324838533f7e21176f6b6970dc"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/apu_nn" path="prebuilt/ml/neuropilot/apu_nn" revision="5ceb7f21c32894e36a6dec0c02b16b1b54765653"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/cmdl" path="prebuilt/ml/neuropilot/cmdl" revision="e96b3a40559103aea9d454cabf5cce689d1e94a4"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/cpu_nn" path="prebuilt/ml/neuropilot/cpu_nn" revision="1174390e9d906efaafe4f92ddbbf265b875a7979"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/gpu_nn" path="prebuilt/ml/neuropilot/gpu_nn" revision="b46f63a761eb0eacec0b07740f6ac6a7459f8bd2"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/mt8133" path="prebuilt/ml/neuropilot/mt8133" revision="a4b21dbf329a44d2c7aac8707fa6209579bfdcc3"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/ncc_tflite" path="prebuilt/ml/neuropilot/ncc_tflite" revision="d7801b12eb50375c2e1116fc7a0620c4b0a13b1a"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/neuron" path="prebuilt/ml/neuropilot/neuron" revision="ab4d3a32abb25f0e4703e44f671e8a0bce580958"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/nn" path="prebuilt/ml/neuropilot/nn" revision="860a98d2a108caab204b22b639185a96251a08cc"/>
+  <project name="yocto-aiv/prebuilt/ml/vp6" path="prebuilt/ml/vp6" revision="d6ee643e1421e1f47df65fffa88434360155e125"/>
+  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/mtk-alsa-plugins" path="prebuilt/multimedia/audio-misc/mtk-alsa-plugins" revision="0b5c619b0fb528e9e981898eca22fe2efc154c10"/>
+  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/mtk-audio-service" path="prebuilt/multimedia/audio-misc/mtk-audio-service" revision="9cd8025c0bd9d847b1167aed5f555fb4d50db6d6"/>
+  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/ppccli" path="prebuilt/multimedia/audio-misc/ppccli" revision="d10403db302c6e615abe7429a17ace76a2064725"/>
+  <project name="yocto-aiv/prebuilt/multimedia/libcamera/mt8133" path="prebuilt/multimedia/libcamera/mt8133" revision="fca37b6435044975b2d5f95729b0d067b91855b9"/>
+  <project name="yocto-aiv/prebuilt/multimedia/libmdp_prot" path="prebuilt/multimedia/libmdp_prot" revision="7447f6b0933cec5f12538553ab751c58485e0eec"/>
+  <project name="yocto-aiv/prebuilt/multimedia/libpq" path="prebuilt/multimedia/libpq" revision="7f0214548765dec3bd62016974d00cc9d2a7d52f"/>
+  <project name="yocto-aiv/prebuilt/multimedia/libpq3" path="prebuilt/multimedia/libpq3" revision="53553e9e3cddb206a2e01374348c03230ab3b00d"/>
+  <project name="yocto-aiv/prebuilt/multimedia/mvp" path="prebuilt/multimedia/mvp" revision="b1d4571459119f5bc3f8c4fc1c3e38dc4dc60d4a"/>
+  <project name="yocto-aiv/prebuilt/multimedia/vpu" path="prebuilt/multimedia/vpu" revision="ccb33c355d07792ceee16a4ce068c19f7d1bb421"/>
+  <project name="yocto-aiv/prebuilt/multimedia/vpu-mt8133" path="prebuilt/multimedia/vpu-mt8133" revision="c957fa559b9df570d2166c9f18f551cfcdf22a78"/>
+  <project name="yocto-aiv/prebuilt/support/pdct/mt8133" path="prebuilt/support/pdct/mt8133" revision="e69191a77e4c3f54761e6334fc259ad03dbac8be"/>
+  <project name="yocto-aiv/src/apps/aiv-base" path="src/apps/aiv-base" revision="2972bdb096d0ea6e7e0d17c94befb39e1c8eb5f0" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/apps/atom-base/demos" path="src/apps/atom-base/demos" revision="d61cea48600bfbb30886efcc3e27346ed347e271" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/bsp/dramk_8133" path="src/bsp/dramk_8133" revision="35f4dbf9d9e78a8b47a602b4d9f3ae30654aaf60" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/bsp/lk" path="src/bsp/lk" revision="0bee25a0d441bc7fd1afe725b93e28d56d0fbebc" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/bsp/scatter" path="src/bsp/scatter" revision="34b0886beca26f6d955059233f6b07d765c7639a" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/bsp/trustzone/atf/v1.6/mt8xxx" path="src/bsp/trustzone/atf/v1.6/mt8xxx" revision="ba96ac0df64186869bf387b5d29a1f309a2acd7a" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/bsp/trustzone/teeloader" path="src/bsp/trustzone/teeloader" revision="b37d37073aa74312ea074d8bb0d389bcc0e453a3" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/bsp/tzapp/common" path="src/bsp/tzapp/common" revision="0497f4447f55f630110e04ba4251c071aa6d4845" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/bin/mt6631" path="src/connectivity/bin/mt6631" revision="7862bd10adf51cc392c1fc3ec138692cb760c14f" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/bin/mt7663" path="src/connectivity/bin/mt7663" revision="79c24e0d55f571f110dc46367fd7ea1a01b84e3f" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/bt_others/bluetooth_mw" path="src/connectivity/bt_others/bluetooth_mw" revision="a239f2dbe0c4124d26f3038e08a30832306370f6" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/bt_others/bluetooth_tool" path="src/connectivity/bt_others/bluetooth_tool" revision="187dede6d1e7adbfa49f9b602116424c49590afa" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/bt_others/boots" path="src/connectivity/bt_others/boots" revision="4d789a09fec350d9a69821e3c722bef3327ac565" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/bt_others/picus" path="src/connectivity/bt_others/picus" revision="f5f8fc517dc3050a47b7c2b3e0ae4f7ea9f1680a" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/bt_others/vendor_lib/mt66xx" path="src/connectivity/bt_others/vendor_lib/mt66xx" revision="d94a3806f79bdaf184cf4eb61b6497d2eb09875d" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/bt_others/vendor_lib/mt76xx" path="src/connectivity/bt_others/vendor_lib/mt76xx" revision="e98d9ad29a0557e001b0c73856691fda76c4d409" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/bt_stack/bluedroid_turnkey" path="src/connectivity/bt_stack/bluedroid_turnkey" revision="cb7863b6d11512c2812e7515fee742ff667453a9" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/combo_tool" path="src/connectivity/combo_tool" revision="d2bc1defe52596834884640a297775107d92ab1f" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/network_cfg" path="src/connectivity/network_cfg" revision="38e8210d5fd170e7487f9272c234843e111f9c98" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/wifitesttool" path="src/connectivity/wifitesttool" revision="632ab44a5c082dd75bc318844b473607638fc1b7" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/wlan" path="src/connectivity/wlan" revision="88ad66c6f0006bc443d5ffd79ea9f8cb0ba67901" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/wlan_cfg" path="src/connectivity/wlan_cfg" revision="89fcbe26b15a286efb47e139c5ef94f1e6034f4e" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/connectivity/wlan_tool/wifi_test_tool" path="src/connectivity/wlan_tool/wifi_test_tool" revision="776cdf1efc781e0fdd7a4512d30e51581c7727f9" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/devtools/datool" path="src/devtools/datool" revision="a854bbfd0a50f28b59e236f1654e45fe3bae73a3" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/devtools/factory/factory" path="src/devtools/factory/factory" revision="761ba93d2443e91f5940694bbc6062584abd419c" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/devtools/factory/mt8133" path="src/devtools/factory/mt8133" revision="4aaf56e26db042bddd7886ab29f993a35774126f" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/devtools/nfsb" path="src/devtools/nfsb" revision="c5a1f6bf68aef6ecf645f1354878105dedd7c2e6" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/devtools/systrace" path="src/devtools/systrace" revision="aa6acbf59f6a2a861599b8b2f7472559bf0e738a" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/kernel/linux/v4.14" path="src/kernel/linux/v4.14" revision="553a38529f05d54b9c406cba9dcebc8dad523974" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/kernel/modules/connectivity/bt_driver/mt66xx" path="src/kernel/modules/connectivity/bt_driver/mt66xx" revision="c49d6bf54bddeb4fc4d535852aea26310c64b31c" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/kernel/modules/connectivity/bt_driver/mt76xx/turnkey" path="src/kernel/modules/connectivity/bt_driver/mt76xx/turnkey" revision="8b31feb0f724816090b7dfe1010dd9c23310e422" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/kernel/modules/connectivity/bt_driver/mt76xx/turnkey_sdio" path="src/kernel/modules/connectivity/bt_driver/mt76xx/turnkey_sdio" revision="1a2e47ba73511d9bb8aedc63d70be2372857d56c" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/kernel/modules/connectivity/wlan_driver/adapter_mt66xx" path="src/kernel/modules/connectivity/wlan_driver/adapter_mt66xx" revision="6ebd91907c5d05ce614fdc1968fa86cf5f39a052" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/kernel/modules/connectivity/wlan_driver/gen4m" path="src/kernel/modules/connectivity/wlan_driver/gen4m" revision="262d4b589f6de12911be5f8b20f90f45ebd51da6" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/kernel/modules/connectivity/wlan_driver/gen4m_mt66xx" path="src/kernel/modules/connectivity/wlan_driver/gen4m_mt66xx" revision="f6e2707f0662288b9b0bc26417f69cf16e25d005" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/kernel/modules/connectivity/wlan_driver/gen4m_mt7663" path="src/kernel/modules/connectivity/wlan_driver/gen4m_mt7663" revision="2c377550c8c59b1ced5e97a112eeea01ae9d0209" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/kernel/modules/connectivity/wmt_mt66xx" path="src/kernel/modules/connectivity/wmt_mt66xx" revision="e1b9e06b07b62d759545e95888cf2ca5d0286b9b" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/apusys" path="src/multimedia/apusys" revision="cae77719936afc69c8173304cf246a1f9254ce15" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/audio-misc/ppc" path="src/multimedia/audio-misc/ppc" revision="08e84119643c8cded83fd0fa1f0fc94aebdf8480" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/gst-mtkmdp" path="src/multimedia/gst-mtkmdp" revision="fda8c71fe2e93e1f05bf83ffe0b00510dfa1c4cd" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/gst-mtkwaylandsink" path="src/multimedia/gst-mtkwaylandsink" revision="63112be8dcca485baeb5915627b6c5e735736d0c" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/libcamera_ext" path="src/multimedia/libcamera_ext" revision="e8d188dc65d8cd5403b6f87977e03f950bf96602" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/mdpd" path="src/multimedia/mdpd" revision="1c59de20d861038d10e200447001190757d52743" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/mdpd3" path="src/multimedia/mdpd3" revision="86af02339bb82bf6c22a8c19ad125421650be9cf" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/mtkcam-mt8133" path="src/multimedia/mtkcam-mt8133" revision="eb1940f15613cff154b65e759f7a0fb1209d62eb" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/smartaudioplayer" path="src/multimedia/smartaudioplayer" revision="f53fb8c97f56d6c8b0bebc81cc6d75df66bda87a" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/multimedia/vpustream" path="src/multimedia/vpustream" revision="547322439144d18824c2c4830f4a830355bbf969" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/support/efuse_writer" path="src/support/efuse_writer" revision="8471ad9f7167e078e2de2e801b418dae7da22479" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/support/libnvram_custom" path="src/support/libnvram_custom" revision="fd6d04f1547269c534833b725f8c8ae7982ecbc5" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/support/nvram" path="src/support/nvram" revision="f614824c5cea222795f86acc059d6fbf142faedd" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/tinysys/adsp/HIFI4/build" path="src/tinysys/adsp/HIFI4/build" revision="107cfda6851c2173841194fa00b55f6ae304c095" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/tinysys/adsp/HIFI4/drivers" path="src/tinysys/adsp/HIFI4/drivers" revision="4a7f0e479dae06278533ced144319cadd6e17c7c" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/tinysys/adsp/HIFI4/kernel" path="src/tinysys/adsp/HIFI4/kernel" revision="2d523565361f0afd48a44c79e9d9e14e09a4a1ad" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/tinysys/adsp/HIFI4/middleware" path="src/tinysys/adsp/HIFI4/middleware" revision="06d9a83c874488ec2a8ef17396ab695bec5b8227" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/tinysys/adsp/HIFI4/project/mt8168/config" path="src/tinysys/adsp/HIFI4/project/mt8168/config" revision="3ed83d6fcca61e15c4600388a6039218af9d1735" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/tinysys/adsp/HIFI4/project/mt8168/platform" path="src/tinysys/adsp/HIFI4/project/mt8168/platform" revision="a03e9af471dafaf3504cb8e2bef8b81a71a45d10" upstream="refs/heads/release-aiv.mt8365"/>
+  <project name="yocto-aiv/src/tinysys/adsp/HIFI4/tools" path="src/tinysys/adsp/HIFI4/tools" revision="bc5366a09b1f6031965f7712b68a5a51f1c3c04f" upstream="refs/heads/release-aiv.mt8365"/>
+</manifest>
