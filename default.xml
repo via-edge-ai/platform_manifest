@@ -15,9 +15,9 @@
   <project name="yocto-aiv/src/tinysys/adsp/HIFI4/project/mt8168/config" path="src/tinysys/adsp/HIFI4/project/mt8168/config"/>
   <project name="yocto-aiv/src/tinysys/adsp/HIFI4/project/mt8168/platform" path="src/tinysys/adsp/HIFI4/project/mt8168/platform"/>
   <project name="yocto-aiv/src/tinysys/adsp/HIFI4/tools" path="src/tinysys/adsp/HIFI4/tools"/>
-  <project name="meta-openembedded" path="meta/meta-openembedded" remote="oe" revision="b1aa5f785094d25765657f1df7db0748680ae7fb"/>
+  <project name="meta-openembedded" path="meta/meta-openembedded" remote="oe" revision="38836bb67436336b9e504769c30f8cf84082da6f"/>
   <project name="meta-gplv2" path="meta/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac"/>
-  <project name="poky" path="meta/poky" remote="yocto" revision="a44b8d2856a937ca3991cbf566788b0cd541d777"/>
+  <project name="poky" path="meta/poky" remote="yocto" revision="dc38d5e494e53a7a03d5bd8d2429d0ef54cfbbbc"/>
   <project name="kraj/meta-clang" path="meta/meta-clang" remote="github" revision="b9e7c299d426e7e22e3ee45bebb5206ad8bc54fd"/>
   <project name="meta-qt5/meta-qt5" path="meta/meta-qt5" remote="github" revision="c6aa602d0640040b470ee81de39726276ddc0ea3"/>
   <project name="yocto-aiv/src/connectivity/bin/mt7663" path="src/connectivity/bin/mt7663"/>
@@ -45,30 +45,30 @@
   <project name="yocto-aiv/meta/meta-mediatek-mt8175" path="meta/meta-mediatek-mt8175"/>
   <project name="yocto-aiv/meta/meta-mediatek-mt8175-gpl" path="meta/meta-mediatek-mt8175-gpl"/>
   <project name="yocto-aiv/meta/meta-mediatek-mt8365" path="meta/meta-mediatek-mt8365"/>
-  <project name="yocto-aiv/prebuilt/bsp/trustzone" path="prebuilt/bsp/trustzone" revision="7f3c015dd5fd31414ab9b6f86596bab5c6f5a532"/>
-  <project name="yocto-aiv/prebuilt/bsp/tzapp" path="prebuilt/bsp/tzapp" revision="f1be60d0cd10ec8bb8967e2119865e0b0468c207"/>
-  <project name="yocto-aiv/prebuilt/connectivity/bt_others/ble_mesh" path="prebuilt/connectivity/bt_others/ble_mesh" revision="bceaee0dce7a72dc60165a85f862108a5f86f3a2"/>
-  <project name="yocto-aiv/prebuilt/connectivity/wlan_smartconnection" path="prebuilt/connectivity/wlan_smartconnection" revision="a5dec0abf6c5028bea1d9d0e7383d578b5cc272c"/>
+  <project name="yocto-aiv/prebuilt/bsp/trustzone" path="prebuilt/bsp/trustzone" revision="27289ff673007a32c12802ea0fc11e4080274e09"/>
+  <project name="yocto-aiv/prebuilt/bsp/tzapp" path="prebuilt/bsp/tzapp" revision="03b04132f5d964987a50360bfbf79eadff4476cf"/>
+  <project name="yocto-aiv/prebuilt/connectivity/bt_others/ble_mesh" path="prebuilt/connectivity/bt_others/ble_mesh" revision="36743a1a229fb05d9190272917e7204361727151"/>
+  <project name="yocto-aiv/prebuilt/connectivity/wlan_smartconnection" path="prebuilt/connectivity/wlan_smartconnection" revision="71557480ac0c52ed9c6f1e97e40e063918916ede"/>
   <project name="yocto-aiv/prebuilt/graphics/mali/bifrost" path="prebuilt/graphics/mali/bifrost" revision="3e5560d8b16dbc324838533f7e21176f6b6970dc"/>
   <project name="yocto-aiv/prebuilt/ml/neuropilot/apu_nn" path="prebuilt/ml/neuropilot/apu_nn" revision="5ceb7f21c32894e36a6dec0c02b16b1b54765653"/>
   <project name="yocto-aiv/prebuilt/ml/neuropilot/cmdl" path="prebuilt/ml/neuropilot/cmdl" revision="e96b3a40559103aea9d454cabf5cce689d1e94a4"/>
-  <project name="yocto-aiv/prebuilt/ml/neuropilot/cpu_nn" path="prebuilt/ml/neuropilot/cpu_nn" revision="1174390e9d906efaafe4f92ddbbf265b875a7979"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/cpu_nn" path="prebuilt/ml/neuropilot/cpu_nn" revision="d4dc7a16ec5cafbaf2d4bd4c76df59f43ee793df"/>
   <project name="yocto-aiv/prebuilt/ml/neuropilot/gpu_nn" path="prebuilt/ml/neuropilot/gpu_nn" revision="b46f63a761eb0eacec0b07740f6ac6a7459f8bd2"/>
   <project name="yocto-aiv/prebuilt/ml/neuropilot/mt8133" path="prebuilt/ml/neuropilot/mt8133" revision="a4b21dbf329a44d2c7aac8707fa6209579bfdcc3"/>
-  <project name="yocto-aiv/prebuilt/ml/neuropilot/ncc_tflite" path="prebuilt/ml/neuropilot/ncc_tflite" revision="d7801b12eb50375c2e1116fc7a0620c4b0a13b1a"/>
-  <project name="yocto-aiv/prebuilt/ml/neuropilot/neuron" path="prebuilt/ml/neuropilot/neuron" revision="ab4d3a32abb25f0e4703e44f671e8a0bce580958"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/ncc_tflite" path="prebuilt/ml/neuropilot/ncc_tflite" revision="a6cfb7e5d21347b95850b6138aaaaf35dcdaa91f"/>
+  <project name="yocto-aiv/prebuilt/ml/neuropilot/neuron" path="prebuilt/ml/neuropilot/neuron" revision="d01896cbccd0ef7c39d0ef554a7512934ac0ad7e"/>
   <project name="yocto-aiv/prebuilt/ml/neuropilot/nn" path="prebuilt/ml/neuropilot/nn" revision="860a98d2a108caab204b22b639185a96251a08cc"/>
-  <project name="yocto-aiv/prebuilt/ml/vp6" path="prebuilt/ml/vp6" revision="d6ee643e1421e1f47df65fffa88434360155e125"/>
-  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/mtk-alsa-plugins" path="prebuilt/multimedia/audio-misc/mtk-alsa-plugins" revision="0b5c619b0fb528e9e981898eca22fe2efc154c10"/>
-  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/mtk-audio-service" path="prebuilt/multimedia/audio-misc/mtk-audio-service" revision="9cd8025c0bd9d847b1167aed5f555fb4d50db6d6"/>
-  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/ppccli" path="prebuilt/multimedia/audio-misc/ppccli" revision="d10403db302c6e615abe7429a17ace76a2064725"/>
+  <project name="yocto-aiv/prebuilt/ml/vp6" path="prebuilt/ml/vp6" revision="8f21d0f7437ec0b113d03c07388ea02c44a3f07d"/>
+  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/mtk-alsa-plugins" path="prebuilt/multimedia/audio-misc/mtk-alsa-plugins" revision="24b209385aaeaa62e5861ae5469733647ca0bdb0"/>
+  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/mtk-audio-service" path="prebuilt/multimedia/audio-misc/mtk-audio-service" revision="8355cfc1b6c9c8a16e650f4e6b54e025ffb10859"/>
+  <project name="yocto-aiv/prebuilt/multimedia/audio-misc/ppccli" path="prebuilt/multimedia/audio-misc/ppccli" revision="62e893fe96062b1b5f9f771cff90df347547de0b"/>
   <project name="yocto-aiv/prebuilt/multimedia/libcamera/mt8133" path="prebuilt/multimedia/libcamera/mt8133" revision="fca37b6435044975b2d5f95729b0d067b91855b9"/>
-  <project name="yocto-aiv/prebuilt/multimedia/libmdp_prot" path="prebuilt/multimedia/libmdp_prot" revision="7447f6b0933cec5f12538553ab751c58485e0eec"/>
+  <project name="yocto-aiv/prebuilt/multimedia/libmdp_prot" path="prebuilt/multimedia/libmdp_prot" revision="6ed250f905049c3537c75ad10a054513b4665a35"/>
   <project name="yocto-aiv/prebuilt/multimedia/libpq" path="prebuilt/multimedia/libpq" revision="7f0214548765dec3bd62016974d00cc9d2a7d52f"/>
   <project name="yocto-aiv/prebuilt/multimedia/libpq3" path="prebuilt/multimedia/libpq3" revision="53553e9e3cddb206a2e01374348c03230ab3b00d"/>
-  <project name="yocto-aiv/prebuilt/multimedia/mvp" path="prebuilt/multimedia/mvp" revision="b1d4571459119f5bc3f8c4fc1c3e38dc4dc60d4a"/>
-  <project name="yocto-aiv/prebuilt/multimedia/vpu" path="prebuilt/multimedia/vpu" revision="ccb33c355d07792ceee16a4ce068c19f7d1bb421"/>
-  <project name="yocto-aiv/prebuilt/multimedia/vpu-mt8133" path="prebuilt/multimedia/vpu-mt8133" revision="c957fa559b9df570d2166c9f18f551cfcdf22a78"/>
+  <project name="yocto-aiv/prebuilt/multimedia/mvp" path="prebuilt/multimedia/mvp" revision="7897edd1fe7094efd4f189bd7105851b33eb4022"/>
+  <project name="yocto-aiv/prebuilt/multimedia/vpu" path="prebuilt/multimedia/vpu" revision="db11b799c1eac107642b5e962343cbdce42d1655"/>
+  <project name="yocto-aiv/prebuilt/multimedia/vpu-mt8133" path="prebuilt/multimedia/vpu-mt8133" revision="7e6cb9916f8ef786c845b60f8dd70483a2620626"/>
   <project name="yocto-aiv/prebuilt/support/pdct/mt8133" path="prebuilt/support/pdct/mt8133" revision="e69191a77e4c3f54761e6334fc259ad03dbac8be"/>
   <project name="yocto-aiv/src/apps/aiv-base" path="src/apps/aiv-base"/>
   <project name="yocto-aiv/src/apps/atom-base/demos" path="src/apps/atom-base/demos"/>
