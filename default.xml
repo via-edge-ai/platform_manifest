@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="rity" fetch="ssh://git@gitlab.com/mediatek/aiot/rity" />
+	<remote name="yocto" fetch="git://git.yoctoproject.org" />
+	<remote name="oe" fetch="git://git.openembedded.org" />
+	<remote name="github" fetch="git://github.com/" />
+
+	<default revision="dunfell" />
+
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" />
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp"
+				remote="rity" />
+	<project name="poky.git" path="src/poky" remote="yocto" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" />
+	<project name="meta-openembedded" path="src/meta-openembedded"
+				remote="oe" />
+	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github"
+				revision="master" />
+</manifest>
