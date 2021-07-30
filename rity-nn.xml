@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<include name="default.xml" />
+
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" />
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow"
+				remote="rity" />
+</manifest>
