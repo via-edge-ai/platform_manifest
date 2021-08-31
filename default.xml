@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="rity" fetch="ssh://git@gitlab.com/mediatek/aiot/rity" />
-	<remote name="yocto" fetch="git://git.yoctoproject.org" />
-	<remote name="oe" fetch="git://git.openembedded.org" />
-	<remote name="github" fetch="git://github.com/" />
+	<remote fetch="git://github.com/" name="github"/>
+	<remote fetch="git://git.openembedded.org" name="oe"/>
+	<remote fetch="ssh://git@gitlab.com/mediatek/aiot/rity" name="rity"/>
+	<remote fetch="git://git.yoctoproject.org" name="yocto"/>
 
-	<default revision="dunfell" />
+	<default revision="dunfell"/>
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" />
-	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp"
-				remote="rity" />
-	<project name="poky.git" path="src/poky" remote="yocto" />
-	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" />
-	<project name="meta-openembedded" path="src/meta-openembedded"
-				remote="oe" />
-	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github"
-				revision="master" />
+	<project dest-branch="dunfell" name="meta-arm.git" path="src/meta-arm" remote="yocto"
+				revision="ce535dfb96de4d2529f091d7d85a7172c626001c" upstream="dunfell"/>
+	<project dest-branch="dunfell" name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp"
+				remote="rity" revision="c04c26414cfe1043f894e1d065735bfe7928f2ae" upstream="dunfell"/>
+	<project dest-branch="dunfell" name="meta-openembedded" path="src/meta-openembedded"
+				remote="oe" revision="4a0d93d250576177e1237fa559f55c4f9d371809" upstream="dunfell"/>
+	<project dest-branch="master" name="meta-qt5/meta-qt5" path="src/meta-qt5"
+				remote="github" revision="2a38fca150f065f869ed530fffe1a07beec80692" upstream="master"/>
+	<project dest-branch="dunfell" name="meta-rity.git" path="src/meta-rity"
+				remote="rity" revision="7ee5b715fe20efc4396d751b1332bdc7133658b6" upstream="dunfell"/>
+	<project dest-branch="dunfell" name="poky.git" path="src/poky"
+				remote="yocto" revision="ed4791c8b05d02edb783359656376216b98c1c49" upstream="dunfell"/>
 </manifest>

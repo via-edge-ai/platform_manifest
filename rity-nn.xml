@@ -2,7 +2,8 @@
 <manifest>
 	<include name="default.xml" />
 
-	<project name="meta-nn.git" path="src/meta-nn" remote="rity" />
-	<project name="meta-tensorflow.git" path="src/meta-tensorflow"
-				remote="rity" />
+	<project dest-branch="dunfell" name="meta-nn.git" path="src/meta-nn"
+				remote="rity" revision="e26f1c9fdadfe9dc28e63f61e08817efdb95f4ff" upstream="dunfell"/>
+	<project dest-branch="dunfell" name="meta-tensorflow.git" path="src/meta-tensorflow"
+				remote="rity" revision="748bd0afdf4761d15dc1705718a9945d43a95ef4" upstream="dunfell"/>
 </manifest>
