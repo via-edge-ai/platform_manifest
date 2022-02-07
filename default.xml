@@ -6,8 +6,8 @@
 	<remote name="github" fetch="git://github.com/" />
 
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-v21.3" groups="mediatek"/>
-	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-v21.3" groups="mediatek"/>
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-v21.3.1" groups="mediatek"/>
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-v21.3.1" groups="mediatek"/>
 	<project name="poky.git" path="src/poky" remote="yocto" revision="56485d82f670f1a7df7929d4045ee2483f0b0b69"/>
 	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="ce535dfb96de4d2529f091d7d85a7172c626001c"/>
 	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="69f94af4d91215e7d4e225bab54bf3bcfee42f1c"/>

@@ -2,8 +2,8 @@
 <manifest>
 	<include name="default.xml" />
 
-	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-v21.3" groups="mediatek"/>
-	<project name="meta-nn-extra.git" path="src/meta-nn-extra" remote="rity" revision="refs/tags/rity-v21.3" groups="mediatek"/>
-	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="rity" revision="refs/tags/rity-v21.3" groups="mediatek"/>
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-v21.3.1" groups="mediatek"/>
+	<project name="meta-nn-extra.git" path="src/meta-nn-extra" remote="rity" revision="refs/tags/rity-v21.3.1" groups="mediatek"/>
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="rity" revision="refs/tags/rity-v21.3.1" groups="mediatek"/>
 	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="5ac36e49ab0f4b9bc72a3c747841c1f9e54e640a"/>
 </manifest>
