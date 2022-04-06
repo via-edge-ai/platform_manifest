@@ -3,7 +3,7 @@
 	<remote name="rity" fetch="ssh://git@gitlab.com/mediatek/aiot/rity" />
 	<remote name="yocto" fetch="git://git.yoctoproject.org" />
 	<remote name="oe" fetch="git://git.openembedded.org" />
-	<remote name="github" fetch="git://github.com/" />
+	<remote name="github" fetch="https://github.com/" />
 
 
 	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-v21.3.1" groups="mediatek"/>
