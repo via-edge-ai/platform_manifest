@@ -6,10 +6,13 @@
 	<remote name="github" fetch="https://github.com/" />
 
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-v21.3.1" groups="mediatek"/>
-	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-v21.3.1" groups="mediatek"/>
-	<project name="poky.git" path="src/poky" remote="yocto" revision="56485d82f670f1a7df7929d4045ee2483f0b0b69"/>
-	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="ce535dfb96de4d2529f091d7d85a7172c626001c"/>
-	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="69f94af4d91215e7d4e225bab54bf3bcfee42f1c"/>
-	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="b64b0a213240375e697185de06c3f502c65cdee7" />
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-dunfell-v22.0" groups="mediatek"/>
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-dunfell-v22.0" groups="mediatek"/>
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="dunfell" groups="refs/tags/rity-dunfell-v22.0"/>
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="rity" revision="refs/tags/rity-dunfell-v22.0" groups="mediatek"/>
+	<project name="poky.git" path="src/poky" remote="yocto" revision="refs/tags/yocto-3.1.15"/>
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="d21ded082c27959c8d617fd18da60b236d2ec62b"/>
+	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="0722ff6f021df91542b5efa1ff5b5f6269f66add"/>
+	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="4837db1d965c51e4a2c5971e6a126c896e5b401a" />
+	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="3bb001d3f364bbf6588fed04b9ee2c7e74a0beba"/>
 </manifest>
