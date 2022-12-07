@@ -1,19 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="rity" fetch="https://gitlab.com/mediatek/aiot/rity" />
-	<remote name="yocto" fetch="https://git.yoctoproject.org" />
-	<remote name="oe" fetch="https://git.openembedded.org" />
-	<remote name="github" fetch="https://github.com/" />
+	<remote fetch="https://gitlab.com/mediatek/aiot/rity" name="rity" />
+	<remote fetch="https://git.yoctoproject.org" name="yocto" />
+	<remote fetch="https://git.openembedded.org" name="oe" />
+	<remote fetch="https://github.com/" name="github" />
 
 	<default revision="kirkstone" />
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v22.1" />
-	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v22.1" />
-	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v22.1" />
-	<project name="poky.git" path="src/poky" remote="yocto" revision="a5ea426b1da472fc8549459fff3c1b8c6e02f4b5" />
-	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="af928569b421431347c84f5941cee7aaa9f0ac74" />
-	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="fcc7d7eae82be4c180f2e8fa3db90a8ab3be07b7" />
-	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" revision="a2b978ba3cb2a58786a66930bf6bc6706ff2df05" />
-	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="5b71df60e523423b9df6793de9387f87a149ac42" />
-	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="36c4dc63c96fb0962d3825c19b22a166db0f3e4f" />
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-stress-test.git" path="src/meta-stress-test" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="poky.git" path="src/poky" remote="yocto" revision="f98db02718944865811d3daf6404ab23bbb655b8" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="67578fcfcd8ee8efcaef67ed7db1dfd55105872e" />
+	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="50d4a8d2a983a68383ef1ffec2c8e21adf0c1a79" />
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" revision="ec20e19319f9eb89ceadc04923cc5bc75e865692" />
+	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="44d44933200287f7d17cf6981af4b4a0961c308d" />
+	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="013b5eeb580bc13b156aaf77d0c1175f75b89671" />
 </manifest>
