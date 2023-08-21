@@ -7,16 +7,18 @@
 
 	<default revision="kirkstone" />
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v23.0" />
-	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v23.0" />
-	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-kirkstone-v23.0" />
-	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-kirkstone-v23.0" />
-	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v23.0" />
-	<project name="meta-stress-test.git" path="src/meta-stress-test" remote="rity" revision="refs/tags/rity-kirkstone-v23.0" />
-	<project name="poky.git" path="src/poky" remote="yocto" revision="0118853b5bc6402cc8e43be54cd62520f6c19c62" />
-	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="904f8e82c2772986fad500af4f72f5211a7ff831" />
-	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="1f31570d0795da90083d1dbf28127c90908e30ee" />
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
+	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
+	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
+	<project name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
+	<project name="meta-stress-test.git" path="src/meta-stress-test" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
+	<project name="poky.git" path="src/poky" remote="yocto" revision="1e6f147c686a91b9a5996f529e32ee1852f946b7" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="96aad3b29aa7a5ee4df5cf617a6336e5218fa9bd" />
+	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="5f120a926b0fcd55cfe7565bb7ddf23661cad498" />
 	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" revision="ec20e19319f9eb89ceadc04923cc5bc75e865692" />
-	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="44d44933200287f7d17cf6981af4b4a0961c308d" />
-	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="bc8388c622c62cde24512d5b4473ede1f5710348" />
+	<project name="meta-security" path="src/meta-security" remote="yocto" revision="cc20e2af2ae1c74e306f6c039c4963457c4cbd0f" />
+	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="bff5bd937f0776166e81a63f3dd39ede348ef758" />
+	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="71321ddf78ea522b87a6b4bffefb14c988a6d921" />
 </manifest>
