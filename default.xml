@@ -7,18 +7,18 @@
 
 	<default revision="kirkstone" />
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
-	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
-	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
-	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
-	<project name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
-	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
-	<project name="meta-stress-test.git" path="src/meta-stress-test" remote="rity" revision="refs/tags/rity-kirkstone-v23.1" />
-	<project name="poky.git" path="src/poky" remote="yocto" revision="1e6f147c686a91b9a5996f529e32ee1852f946b7" />
-	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="96aad3b29aa7a5ee4df5cf617a6336e5218fa9bd" />
-	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="5f120a926b0fcd55cfe7565bb7ddf23661cad498" />
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v23.2" />
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v23.2" />
+	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-kirkstone-v23.2" />
+	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-kirkstone-v23.2" />
+	<project name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid" remote="rity" revision="refs/tags/rity-kirkstone-v23.2" />
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v23.2" />
+	<project name="meta-stress-test.git" path="src/meta-stress-test" remote="rity" revision="refs/tags/rity-kirkstone-v23.2" />
+	<project name="poky.git" path="src/poky" remote="yocto" revision="59077aa77b17ca6fdcc4e66d9d8b0c18dc89ecce" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="b187fb9232ca0a6b5f8f90b4715958546fc41d73" />
+	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="79a6f60dabad9e5b0e041efa91379447ef030482" />
 	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" revision="ec20e19319f9eb89ceadc04923cc5bc75e865692" />
-	<project name="meta-security" path="src/meta-security" remote="yocto" revision="cc20e2af2ae1c74e306f6c039c4963457c4cbd0f" />
-	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="bff5bd937f0776166e81a63f3dd39ede348ef758" />
-	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="71321ddf78ea522b87a6b4bffefb14c988a6d921" />
+	<project name="meta-security" path="src/meta-security" remote="yocto" revision="1a3e42cedbd94ca73be45800d0e902fec35d0f0f" />
+	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="ae8a97f79364bed1abc297636f7933d0e35f22be" />
+	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="2d08d6bf376a1e06c53164fd6283b03ec2309da4" />
 </manifest>
