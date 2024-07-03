@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <remote name="tfs03" fetch="http://mce-tfs03.taipei.via.com.tw:8080/tfs/DefaultCollection/Yocto/_git"/>
+  <default revision="refs/heads/mtk_yocto_4.0.17_v24.0" remote="tfs03"/>
+  
+  <project name="kraj_meta-clang.git" path="src/meta-clang"/>
+  <project name="meta-arm.git" path="src/meta-arm"/>
+  <project name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid"/>
+  <project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp"/>
+  <project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo"/>
+  <project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn"/>
+  <project name="meta-nn.git" path="src/meta-nn"/>
+  <project name="meta-openembedded.git" path="src/meta-openembedded"/>
+  <project name="meta-qt5_meta-qt5.git" path="src/meta-qt5"/>
+  <project name="meta-rity.git" path="src/meta-rity"/>
+  <project name="meta-security.git" path="src/meta-security"/>
+  <project name="meta-stress-test.git" path="src/meta-stress-test"/>
+  <project name="meta-tensorflow.git" path="src/meta-tensorflow"/>
+  <project name="poky.git" path="src/poky"/>
+</manifest>
