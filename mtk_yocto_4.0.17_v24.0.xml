@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote name="tfs03" fetch="http://mce-tfs03.taipei.via.com.tw:8080/tfs/DefaultCollection/Yocto/_git"/>
-  <default revision="refs/heads/mtk_yocto_4.0.17_v24.0" remote="tfs03"/>
-  
+  <remote name="github" fetch="git@github.com:via-edge-ai"/>
+  <default revision="refs/heads/mtk_yocto_4.0.17_v24.0" remote="github"/>
+
   <project name="kraj_meta-clang.git" path="src/meta-clang"/>
   <project name="meta-arm.git" path="src/meta-arm"/>
   <project name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid"/>
