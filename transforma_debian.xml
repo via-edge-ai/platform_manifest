@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <remote name="github" fetch="git@github.com:via-edge-ai"/>
+  <default revision="refs/heads/transforma_debian" remote="github"/>
+
+  <project name="meta-arm.git" path="src/meta-arm"/>
+  <project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp"/>
+  <project name="meta-nn.git" path="src/meta-nn"/>
+  <project name="meta-rity.git" path="src/meta-rity"/>
+  <project name="meta-security.git" path="src/meta-security"/>
+  <project name="poky.git" path="src/poky"/>
+</manifest>
