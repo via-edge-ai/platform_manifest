@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote name="github" fetch="git@github.com:via-edge-ai"/>
+  <remote name="github" fetch="https://github.com/via-edge-ai"/>
   <default revision="refs/heads/transforma_debian" remote="github"/>
 
   <project name="meta-arm.git" path="src/meta-arm"/>
