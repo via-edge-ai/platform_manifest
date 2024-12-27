@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote name="github" fetch="git@github.com:via-edge-ai"/>
-  <default revision="refs/heads/mtk_yocto_4.0.17_v24.0" remote="github"/>
+  <remote name="github" fetch="https://github.com/via-edge-ai"/>
+  <default revision="refs/heads/vab5000_yocto" remote="github"/>
 
   <project name="kraj_meta-clang.git" path="src/meta-clang"/>
   <project name="meta-arm.git" path="src/meta-arm"/>
@@ -16,5 +16,6 @@
   <project name="meta-security.git" path="src/meta-security"/>
   <project name="meta-stress-test.git" path="src/meta-stress-test"/>
   <project name="meta-tensorflow.git" path="src/meta-tensorflow"/>
+  <project name="meta-via.git" path="src/meta-via"/>
   <project name="poky.git" path="src/poky"/>
 </manifest>
